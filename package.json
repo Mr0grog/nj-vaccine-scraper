@@ -1,0 +1,15 @@
+{
+  "name": "nj-vaccine-scraper",
+  "version": "0.1.0",
+  "description": "Scrape vaccine availability information from clinics in New Jersey.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "U.S. Digital Response",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "playwright": "^1.8.0",
+    "yargs": "^16.2.0"
+  }
+}

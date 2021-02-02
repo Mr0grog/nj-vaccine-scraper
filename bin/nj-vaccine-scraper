@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+const cli = require('../src/cli.js');
+const yargs = require('yargs');
+
+const args = yargs
+  .scriptName('nj-vaccine-scraper')
+  .help()
+  .argv;
+
+cli(args._, args);

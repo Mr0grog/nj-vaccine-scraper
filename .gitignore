@@ -1,0 +1,16 @@
+node_modules
+
+# Editor files
+#mac
+.DS_Store
+*~
+
+#vim
+*.swp
+*.swo
+
+#vscode
+.vscode
+
+# Working/experimental files
+.scratch.*
