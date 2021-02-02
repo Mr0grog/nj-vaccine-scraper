@@ -21,7 +21,7 @@ jobs:
     - name: Checkout gh-pages
       uses: actions/checkout@v2
       with:
-        branch: gh-pages
+        ref: gh-pages
         path: output
 
     - name: Install Node.js
