@@ -42,10 +42,10 @@ jobs:
         cd scraper
         npm install
 
-    - name: Install dependencies
+    - name: Scrape!
       run: |
         cd scraper
-        bin/nj-vaccine-scraper | jq > ../output/data.json
+        bin/nj-vaccine-scraper > ../output/data.json
 
     - name: Commit Updates
       run: |
@@ -55,6 +55,7 @@ jobs:
           git config user.name 'Scraper Bot'
           git config user.email 'scraper.bot@example.com'
 
+          git add data.json
           git commit -m 'Update scraper results'
           git push
         fi
