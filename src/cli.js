@@ -1,10 +1,11 @@
 const fs = require('fs/promises');
 const essex = require('./essex-county');
+const hackensackMeridian = require('./hackensack-meridian');
 
 allScrapers = {
   essex,
   shoprite: async function () { console.error('ShopRite Not implemented'); return []; },
-  hackensackMeridian: async function () { console.error('Hackensack-Meridian Not implemented'); return []; },
+  hackensackMeridian,
   vaccinatenj: async function () { console.error('VaccinateNJ Not implemented'); return []; },
 };
 
@@ -15,19 +16,17 @@ function runScrapers (scrapers) {
     ? scrapers
     : Object.getOwnPropertyNames(allScrapers);
 
-  const scraperRuns = scrapers.map(name => {
+  const runs = scrapers.map(name => {
     const scraper = allScrapers[name];
-    if (scraper) {
-      return scraper();
-    }
-    else {
-      console.error(`Unknown scraper: "${name}"`);
-      return null;
-    }
-  }).filter(x => !!x);
+    const run = scraper
+      ? scraper()
+      : Promise.reject(new Error('Unknown scraper'));
+    return run
+      .then(results => ({name, results, error: null}))
+      .catch(error => ({name, results: [], error}))
+  });
 
-  return Promise.all(scraperRuns)
-    .then(results => results.flat());
+  return Promise.all(runs);
 }
 
 function mergeDatasets (baseData, newData) {
@@ -66,14 +65,22 @@ module.exports = async function cli (scrapers, options) {
 
   const startTime = Date.now();
   try {
-    const results = await runScrapers(scrapers);
+    const reports = await runScrapers(scrapers);
+    const results = reports.map(report => report.results).flat();
     const merged = mergeDatasets(input, results);
+
+    for (let report of reports) {
+      if (report.error) {
+        console.error(`Error in "${report.name}":`, report.error, '\n');
+        process.exitCode = 1;
+      }
+    }
 
     // TODO: use `options.output` to write to a file instead of stdout
     console.log(JSON.stringify(merged, null, jsonSpacing));
     console.error(`Completed in ${Date.now() - startTime} seconds.`);
   }
   catch (error) {
-    console.error(`Uhoh: ${error}`);
+    console.error(`Error: ${error}`);
   }
 }
