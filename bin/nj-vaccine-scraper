@@ -5,7 +5,7 @@ const yargs = require('yargs');
 const args = yargs
   .scriptName('nj-vaccine-scraper')
   .usage(
-    '$0 [options] [scraper_name] [scraper_name...]',
+    '$0',
     `Scrape COVID vaccine availability from providers in New Jersey.
     If no scrapers are specified, all known scrapers will be run.`
   )

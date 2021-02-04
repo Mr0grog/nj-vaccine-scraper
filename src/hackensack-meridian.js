@@ -15,6 +15,7 @@ function wait (milliseconds) {
 //
 // FIXME: this needs clearer documentation of what's going on.
 module.exports = async function scrape () {
+  console.error('Checking Hackensack-Meridian Health (https://hmhn.org)...');
   let result = [];
 
   const browser = await chromium.launch();
@@ -71,4 +72,4 @@ module.exports = async function scrape () {
   }
 
   return result;
-}
+};

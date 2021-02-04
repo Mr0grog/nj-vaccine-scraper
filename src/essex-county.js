@@ -30,6 +30,7 @@ function simplifyName (name) {
 }
 
 module.exports = async function scrape () {
+  console.error('Checking Essex County (https://essexcovid.org)...');
   const browser = await chromium.launch();
   let result = {};
   try {
