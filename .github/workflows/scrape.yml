@@ -45,7 +45,8 @@ jobs:
     - name: Scrape!
       run: |
         cd scraper
-        bin/nj-vaccine-scraper > ../output/data.json
+        bin/nj-vaccine-scraper --input ../output/data.json > out.json
+        mv out.json ../output/data.json
 
     - name: Commit Updates
       run: |

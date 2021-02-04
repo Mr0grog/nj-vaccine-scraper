@@ -1,3 +1,4 @@
+const fs = require('fs/promises');
 const essex = require('./essex-county');
 
 allScrapers = {
@@ -29,12 +30,50 @@ function runScrapers (scrapers) {
     .then(results => results.flat());
 }
 
-module.exports = function cli (scrapers, options) {
-  // TODO: handle `options.input` by reading a file and matching up scraper
-  // results to items in it.
-  // TODO: write output to `options.output` instead of stdout if present
-  runScrapers(scrapers)
-    .then(results => console.log(JSON.stringify(results)))
-    .then(() => console.error('\nDone!'))
-    .catch(error => console.error(`Uhoh: ${error}`));
+function mergeDatasets (baseData, newData) {
+  const makeKey = (item) => `${item.name}:${item.operated_by}`;
+
+  const result = [];
+  const newLookup = newData.reduce((lookup, item) => {
+    lookup.set(makeKey(item), item);
+    return lookup;
+  }, new Map());
+
+  for (let item of baseData) {
+    const key = makeKey(item);
+    const newValue = newLookup.get(key);
+    if (newValue) {
+      result.push(newValue);
+      newLookup.delete(key);
+    }
+    else {
+      result.push(item);
+    }
+  }
+
+  result.push(...newLookup.values());
+  return result;
+}
+
+module.exports = async function cli (scrapers, options) {
+  const jsonSpacing = options.compact ? 0 : 2;
+
+  let input = [];
+  if (options.input) {
+    const rawText = await fs.readFile(options.input, {encoding: 'utf-8'})
+    input = JSON.parse(rawText);
+  }
+
+  const startTime = Date.now();
+  try {
+    const results = await runScrapers(scrapers);
+    const merged = mergeDatasets(input, results);
+
+    // TODO: use `options.output` to write to a file instead of stdout
+    console.log(JSON.stringify(merged, null, jsonSpacing));
+    console.error(`Completed in ${Date.now() - startTime} seconds.`);
+  }
+  catch (error) {
+    console.error(`Uhoh: ${error}`);
+  }
 }
