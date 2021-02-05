@@ -1,13 +1,5 @@
 const fs = require('fs/promises');
-const essex = require('./essex-county');
-const hackensackMeridian = require('./hackensack-meridian');
-
-allScrapers = {
-  essex,
-  shoprite: async function () { console.error('ShopRite Not implemented'); return []; },
-  hackensackMeridian,
-  vaccinatenj: async function () { console.error('VaccinateNJ Not implemented'); return []; },
-};
+const { allScrapers } = require('./index');
 
 // TODO: this should move to somewhere we list all the scrapers, maybe index.js
 function runScrapers (scrapers) {

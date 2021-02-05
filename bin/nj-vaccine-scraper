@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const { allScrapers } = require('../src/index');
 const cli = require('../src/cli.js');
 const yargs = require('yargs');
 
@@ -7,16 +8,18 @@ const args = yargs
   .usage(
     '$0',
     `Scrape COVID vaccine availability from providers in New Jersey.
-    If no scrapers are specified, all known scrapers will be run.`
+    If no scrapers are specified, all known scrapers will be run.
+
+    Supported scrapers: ${Object.getOwnPropertyNames(allScrapers).join(', ')}`
   )
   .option('input', {
-      type: 'string',
-      describe: 'file with existing data from a previous scraper run (new results will be merged with this file)'
+    type: 'string',
+    describe: 'file with existing data from a previous scraper run (new results will be merged with this file)'
   })
   .option('compact', {
     type: 'boolean',
     describe: 'Output JSON as a single line'
-})
+  })
   .help()
   .argv;
 

@@ -1,4 +1,4 @@
-const { chromium } = require('playwright');
+const { withBrowser } = require('./browser');
 const { availability } = require('./model');
 
 const officialName = {
@@ -29,39 +29,41 @@ function simplifyName (name) {
     .toLowerCase();
 }
 
-module.exports = async function scrape () {
+// Essex County's site is behind a Securi Cloudproxy (https://sucuri.net/), so
+// it's easiest to work around it by automating a browser.
+module.exports = withBrowser(async function scrape (browser) {
   console.error('Checking Essex County (https://essexcovid.org)...');
-  const browser = await chromium.launch();
-  let result = {};
-  try {
-    page = await browser.newPage()
-    await page.goto('https://essexcovid.org/vaccine/vaccine_availability')
-    const sites = await page.evaluate(() => {
-      const rows = Array.from(document.querySelectorAll('#datatable-grouping > tbody > tr'))
-          .filter(row => !row.classList.contains('group'))
-          .map(row => Array.from(row.querySelectorAll('td')))
-          .map(cells => cells.map(cell => cell.textContent.trim()))
-          .map(values => [values[0], parseInt(values[1], 10)])
-          .reduce((data, [name, count]) => {
-            data[name] = data[name] || (count > 0);
-            return data;
-          }, {});
 
-      return rows;
-    });
+  let result = [];
+  const page = await browser.newPage();
+  await page.goto('https://essexcovid.org/vaccine/vaccine_availability');
 
-    const scrapeTime = new Date();
-    result = Object.getOwnPropertyNames(sites).map(site => ({
-      'name': site,
-      'operated_by': 'Essex County',
-      'available': sites[site] ? availability.yes : availability.no,
-      'checked_at': scrapeTime.toISOString(),
-      'official': officialName[simplifyName(site)] || null
-    }));
-  }
-  finally {
-    await browser.close();
-  }
+  // The main body of the page is a table with location names and number of
+  // available appointments, broken up into repeated sections by date. We only
+  // care if there are *some* appointments, so if any of the rows for a given
+  // name have `> 0` in the second column, they're good.
+  const sites = await page.evaluate(() => {
+    const rows = Array.from(document.querySelectorAll('#datatable-grouping > tbody > tr'))
+      .filter(row => !row.classList.contains('group'))
+      .map(row => Array.from(row.querySelectorAll('td')))
+      .map(cells => cells.map(cell => cell.textContent.trim()))
+      .map(values => [values[0], parseInt(values[1], 10)]);
+
+    return rows.reduce((data, [name, count]) => {
+      data[name] = data[name] || (count > 0);
+      return data;
+    }, {});
+  });
+
+  // Transform results into a standard format.
+  const scrapeTime = new Date();
+  result = Object.getOwnPropertyNames(sites).map(site => ({
+    name: site,
+    operated_by: 'Essex County',
+    available: sites[site] ? availability.yes : availability.no,
+    checked_at: scrapeTime.toISOString(),
+    official: officialName[simplifyName(site)] || null
+  }));
 
   return result;
-};
+});
