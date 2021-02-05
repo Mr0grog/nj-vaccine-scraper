@@ -1,33 +1,7 @@
 const { withBrowser } = require('./browser');
 const { availability } = require('./model');
-
-const officialName = {
-  'kmart west orange': {
-    name: 'Essex County - Kmart-West Orange',
-    address: '235 Prospect Ave, West Orange'
-  },
-  'essex county college': {
-    name: 'Essex County - Essex County College',
-    address: '303 University Avenue, Newark'
-  },
-  'west caldwell tech': {
-    name: 'Essex County - West Caldwell Tech',
-    address: '620 Passaic Avenue West Caldwell'
-  },
-  'livingston mall sears': {
-    name: 'Essex County - Sears-Livingston Mall',
-    address: '112 Eisenhower Parkway Livingston'
-  },
-  'donald payne school of technology': null
-}
-
-function simplifyName (name) {
-  return name
-    .replace(/\W+/g, ' ')
-    .replace(/\s{2,}/, ' ')
-    .trim()
-    .toLowerCase();
-}
+const officialLocations = require('./official-locations');
+const njUtils = require('./utils');
 
 // Essex County's site is behind a Securi Cloudproxy (https://sucuri.net/), so
 // it's easiest to work around it by automating a browser.
@@ -55,15 +29,32 @@ module.exports = withBrowser(async function scrape (browser) {
     }, {});
   });
 
+  let allLocations = await officialLocations.getList();
+
   // Transform results into a standard format.
   const scrapeTime = new Date();
-  result = Object.getOwnPropertyNames(sites).map(site => ({
-    name: site,
-    operated_by: 'Essex County',
-    available: sites[site] ? availability.yes : availability.no,
-    checked_at: scrapeTime.toISOString(),
-    official: officialName[simplifyName(site)] || null
-  }));
+  result = Object.getOwnPropertyNames(sites).map(site => {
+    let matchableName = njUtils.matchable(site);
+    // FIXME: special case for this one that doesn't match up well. :(
+    if (matchableName === 'livingston mall sears') {
+      matchableName = 'livingston mall';
+    }
+
+    const official = allLocations
+      .find(record => record.simpleName.includes(matchableName));
+
+    if (!official) {
+      console.warn(`Essex county location "${site}" not in offical list`);
+    }
+
+    return {
+      name: official ? official['Facility Name'] : site,
+      operated_by: 'Essex County',
+      available: sites[site] ? availability.yes : availability.no,
+      checked_at: scrapeTime.toISOString(),
+      official: official
+    };
+  });
 
   return result;
 });

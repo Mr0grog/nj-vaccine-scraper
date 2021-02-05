@@ -1,5 +1,8 @@
 const fs = require('fs/promises');
 const { allScrapers } = require('./index');
+const { availability } = require('./model');
+const officialLocations = require('./official-locations');
+const { popItem } = require('./utils');
 
 // TODO: this should move to somewhere we list all the scrapers, maybe index.js
 function runScrapers (scrapers) {
@@ -46,6 +49,30 @@ function mergeDatasets (baseData, newData) {
   return result;
 }
 
+async function addOfficialLocations (data) {
+  let officials = await officialLocations.getList();
+  officials = officials.slice();
+
+  for (let record of data) {
+    if (!record.official) continue;
+
+    popItem(officials, official => (
+      official.simpleName === record.official.simpleName &&
+      official.simpleAddress === record.official.simpleAddress
+    ));
+  }
+
+  data.push(...officials.map(official => ({
+    name: official['Facility Name'],
+    operated_by: null,
+    available: availability.unknowable,
+    checked_at: null,
+    official
+  })));
+
+  return data;
+}
+
 module.exports = async function cli (scrapers, options) {
   const jsonSpacing = options.compact ? 0 : 2;
 
@@ -59,7 +86,10 @@ module.exports = async function cli (scrapers, options) {
   try {
     const reports = await runScrapers(scrapers);
     const results = reports.map(report => report.results).flat();
-    const merged = mergeDatasets(input, results);
+    let merged = mergeDatasets(input, results);
+    if (options.includeAll) {
+      merged = await addOfficialLocations(merged);
+    }
 
     for (let report of reports) {
       if (report.error) {

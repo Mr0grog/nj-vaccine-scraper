@@ -1,5 +1,6 @@
 const { withBrowser } = require('./browser');
 const { availability } = require('./model');
+const officialLocations = require('./official-locations');
 
 function wait (milliseconds) {
   return new Promise((resolve, _) => setTimeout(
@@ -16,7 +17,6 @@ function wait (milliseconds) {
 // FIXME: this needs clearer documentation of what's going on.
 module.exports = withBrowser(async function scrape (browser) {
   console.error('Checking Hackensack-Meridian Health (https://hmhn.org)...');
-  let result = [];
   const page = await browser.newPage();
 
   // https://mychart.hmhn.org/Mychart/OpenScheduling/OpenScheduling/GetSpecialties?noCache=0.45289891322258435
@@ -63,6 +63,25 @@ module.exports = withBrowser(async function scrape (browser) {
     // instead of throwing here.
     throw new Error('Alert! Hackensack Meridian has data.');
   }
+
+  // For now, just return no for all of them.
+  const allLocations = await officialLocations.getList();
+  const hackensackLocations = allLocations
+    .filter(location => (
+      location['Facility Website'].includes('hmhn.org/') ||
+      location['Facility Website'].includes('hackensackmeridianhealth.org/') ||
+      location['Facility Website'].includes('mountainsidehosp.com/')
+    ));
+
+  // Transform results into a standard format.
+  const scrapeTime = new Date();
+  result = hackensackLocations.map(location => ({
+    name: location['Facility Name'],
+    operated_by: 'Hackensack Meridian Health',
+    available: availability.no,
+    checked_at: scrapeTime.toISOString(),
+    official: location
+  }));
 
   return result;
 });

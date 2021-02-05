@@ -20,6 +20,10 @@ const args = yargs
     type: 'boolean',
     describe: 'Output JSON as a single line'
   })
+  .option('include-all', {
+    type: 'boolean',
+    describe: 'Include all known locations in output, even if they weren\'t scraped'
+  })
   .help()
   .argv;
 

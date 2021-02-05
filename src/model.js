@@ -1,7 +1,7 @@
 const availability = {
   yes: 'yes',
-  unknown: 'unknown',
-  unknowable: 'unknowable',
+  unknown: 'unknown',        // We weren't able to determine availability.
+  unknowable: 'unknowable',  // There's no scraper for this location.
   no: 'no'
 };
 

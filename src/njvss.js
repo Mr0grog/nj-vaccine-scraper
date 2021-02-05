@@ -1,5 +1,7 @@
 const got = require('got');
 const { availability } = require('./model');
+const officialLocations = require('./official-locations');
+const njUtils = require('./utils');
 
 async function getCredentials () {
   const tokenResponse = await got('https://covidvaccine.nj.gov/_layout/tokenhtml');
@@ -36,6 +38,21 @@ async function getLocations ({token, cookie}) {
   return response.body;
 }
 
+function getMatchableAddress (location) {
+  const description = location.Description;
+  const address = description.match(/<p>(.*?)<br/i)[1];
+  return njUtils.matchable(address.split(/-|,/)[0]);
+}
+
+function getDescriptionDetails (location) {
+  // The first <p> is an address, so we're just looking for the second <p> and
+  // everything after it.
+  // (In the future, it might be nice to parse this in a more detailed way.)
+  const secondGraf = location.Description.indexOf('<p', 3);
+  if (secondGraf > -1) return location.Description.slice(secondGraf);
+  else return location.Description;
+}
+
 module.exports = async function () {
   console.error('Checking New Jersey VSS (https://covidvaccine.nj.gov)...');
 
@@ -64,14 +81,44 @@ module.exports = async function () {
   //   Url: ''
   // }
 
+  let allLocations = await officialLocations.getList();
+  // Make a copy we can modify it.
+  allLocations = allLocations.slice();
+
   const scrapeTime = new Date();
-  result = locations.map(location => ({
-    name: location.Title,
-    operated_by: null,
-    available: availability.yes,
-    checked_at: scrapeTime.toISOString(),
-    official: null
-  }));
+  result = locations.map(location => {
+    const addressPart = getMatchableAddress(location);
+    const matchableTitle = njUtils.matchable(location.Title);
+    const official = njUtils.popItem(allLocations, record => (
+      record.simpleAddress.includes(addressPart) ||
+      record.simpleAddress.includes(matchableTitle)
+    ));
+
+    if (!official) {
+      console.warn(`NJVSS Location "${location.Title}" not in offical list`);
+    }
+
+    return {
+      name: official ? official['Facility Name'] : location.Title,
+      operated_by: 'NJ VSS',
+      available: availability.yes,
+      checked_at: scrapeTime.toISOString(),
+      official,
+      description: getDescriptionDetails(location)
+    };
+  });
+
+  // Append all the items that weren't found in the above mapping phase.
+  const remaining = allLocations
+    .filter(item => item['Facility Website'].includes('covidvaccine.nj.gov'))
+    .map(official => ({
+      name: official['Facility Name'],
+      operated_by: 'NJ VSS',
+      available: availability.no,
+      checked_at: scrapeTime.toISOString(),
+      official
+    }));
+  result.push(...remaining);
 
   return result;
 };
