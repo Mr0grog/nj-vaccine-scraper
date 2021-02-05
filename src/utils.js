@@ -14,10 +14,14 @@ module.exports = {
       .replace(MULTIPLE_SPACE_PATTERN, ' ')
       .trim()
       .toLowerCase()
-      .replace(/ rd /g, 'road')
-      .replace(/ st /g, 'street')
-      .replace(/ blvd /g, 'boulevard')
-      .replace(/ ln /g, 'lane');
+      .replace(/ rd /g, ' road ')
+      .replace(/ st /g, ' street ')
+      .replace(/ blvd /g, ' boulevard ')
+      .replace(/ ln /g, ' lane ')
+      .replace(/ n /g, ' north ')
+      .replace(/ s /g, ' south ')
+      .replace(/ e /g, ' east ')
+      .replace(/ w /g, ' west ');
   },
 
   /**
