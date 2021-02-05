@@ -1,69 +1,9 @@
 [
   {
-    "name": "Kmart – West Orange",
-    "operated_by": "Essex County",
-    "available": "no",
-    "checked_at": "2021-02-05T11:23:56.023Z",
-    "official": {
-      "name": "Essex County - Kmart-West Orange",
-      "address": "235 Prospect Ave, West Orange"
-    }
-  },
-  {
-    "name": "Essex County College",
-    "operated_by": "Essex County",
-    "available": "no",
-    "checked_at": "2021-02-05T11:23:56.023Z",
-    "official": {
-      "name": "Essex County - Essex County College",
-      "address": "303 University Avenue, Newark"
-    }
-  },
-  {
-    "name": "West Caldwell Tech",
-    "operated_by": "Essex County",
-    "available": "no",
-    "checked_at": "2021-02-05T11:23:56.023Z",
-    "official": {
-      "name": "Essex County - West Caldwell Tech",
-      "address": "620 Passaic Avenue West Caldwell"
-    }
-  },
-  {
-    "name": "Livingston Mall/Sears",
-    "operated_by": "Essex County",
-    "available": "no",
-    "checked_at": "2021-02-05T11:23:56.023Z",
-    "official": {
-      "name": "Essex County - Sears-Livingston Mall",
-      "address": "112 Eisenhower Parkway Livingston"
-    }
-  },
-  {
-    "name": "Donald Payne School of Technology",
-    "operated_by": "Essex County",
-    "available": "no",
-    "checked_at": "2021-02-05T11:25:40.428Z"
-  },
-  {
-    "name": "Gloucester County Health - Mega Site",
-    "operated_by": null,
-    "available": "yes",
-    "checked_at": "2021-02-05T11:23:53.025Z",
-    "official": null
-  },
-  {
-    "name": "International High School",
-    "operated_by": null,
-    "available": "yes",
-    "checked_at": "2021-02-05T11:23:53.025Z",
-    "official": null
-  },
-  {
     "name": "Essex County - Kmart-West Orange",
     "operated_by": "Essex County",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.428Z",
+    "checked_at": "2021-02-05T11:26:58.965Z",
     "official": {
       "Facility Name": "Essex County - Kmart-West Orange",
       "Facility Address": "235 Prospect Ave, \nWest Orange",
@@ -80,7 +20,7 @@
     "name": "Essex County - Essex County College",
     "operated_by": "Essex County",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.428Z",
+    "checked_at": "2021-02-05T11:26:58.965Z",
     "official": {
       "Facility Name": "Essex County - Essex County College",
       "Facility Address": "303 University Avenue\nNewark",
@@ -97,7 +37,7 @@
     "name": "Essex County - West Caldwell Tech",
     "operated_by": "Essex County",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.428Z",
+    "checked_at": "2021-02-05T11:26:58.965Z",
     "official": {
       "Facility Name": "Essex County - West Caldwell Tech",
       "Facility Address": "620 Passaic Avenue West Caldwell",
@@ -114,7 +54,7 @@
     "name": "Essex County - Sears-Livingston Mall",
     "operated_by": "Essex County",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.428Z",
+    "checked_at": "2021-02-05T11:26:58.965Z",
     "official": {
       "Facility Name": "Essex County - Sears-Livingston Mall",
       "Facility Address": "112 Eisenhower Parkway Livingston",
@@ -128,10 +68,16 @@
     }
   },
   {
+    "name": "Donald Payne School of Technology",
+    "operated_by": "Essex County",
+    "available": "no",
+    "checked_at": "2021-02-05T11:26:58.965Z"
+  },
+  {
     "name": "Bergen County Megasite",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.380Z",
+    "checked_at": "2021-02-05T11:26:58.872Z",
     "official": {
       "Facility Name": "Bergen County Megasite",
       "Facility Address": "Racetrack at Meadlowlands 1 Racetrack Drive East Rutherford, NJ",
@@ -148,7 +94,7 @@
     "name": "Hackensack Meridian Health System",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.380Z",
+    "checked_at": "2021-02-05T11:26:58.872Z",
     "official": {
       "Facility Name": "Hackensack Meridian Health System",
       "Facility Address": "Multiple Locations",
@@ -165,7 +111,7 @@
     "name": "Hackensack Meridian Health-Mountainside",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.380Z",
+    "checked_at": "2021-02-05T11:26:58.872Z",
     "official": {
       "Facility Name": "Hackensack Meridian Health-Mountainside",
       "Facility Address": "1 Bay Avenue Montclair",
@@ -182,7 +128,7 @@
     "name": "Palisades Medical Center",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.380Z",
+    "checked_at": "2021-02-05T11:26:58.872Z",
     "official": {
       "Facility Name": "Palisades Medical Center",
       "Facility Address": "7600 River Road North Bergen",
@@ -199,7 +145,7 @@
     "name": "HMH JFK University Medical Center",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.380Z",
+    "checked_at": "2021-02-05T11:26:58.872Z",
     "official": {
       "Facility Name": "HMH JFK University Medical Center",
       "Facility Address": "65 James Street Edison",
@@ -216,7 +162,7 @@
     "name": "Raritan Bay Medical Center Old Bridge",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.380Z",
+    "checked_at": "2021-02-05T11:26:58.872Z",
     "official": {
       "Facility Name": "Raritan Bay Medical Center Old Bridge",
       "Facility Address": "Auxiliary Hall 1 Hospital Plaza Old Bridge",
@@ -233,7 +179,7 @@
     "name": "Raritan Bay Medical Center Perth Amboy",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.380Z",
+    "checked_at": "2021-02-05T11:26:58.872Z",
     "official": {
       "Facility Name": "Raritan Bay Medical Center Perth Amboy",
       "Facility Address": "Centennial Hall 530 New Brunswick Avenue Perth Amboy",
@@ -250,7 +196,7 @@
     "name": "Bayshore Medical Center",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.380Z",
+    "checked_at": "2021-02-05T11:26:58.872Z",
     "official": {
       "Facility Name": "Bayshore Medical Center",
       "Facility Address": "727 North Beers Street Holmdel",
@@ -267,7 +213,7 @@
     "name": "HMH Jersey Shore U.M.C.",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.380Z",
+    "checked_at": "2021-02-05T11:26:58.872Z",
     "official": {
       "Facility Name": "HMH Jersey Shore U.M.C.",
       "Facility Address": "1945 Route 33 Neptune",
@@ -284,7 +230,7 @@
     "name": "Riverview Medical Center",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.380Z",
+    "checked_at": "2021-02-05T11:26:58.872Z",
     "official": {
       "Facility Name": "Riverview Medical Center",
       "Facility Address": "1 Riverview Plaza Red Bank",
@@ -301,7 +247,7 @@
     "name": "Ocean Medical Center",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.380Z",
+    "checked_at": "2021-02-05T11:26:58.872Z",
     "official": {
       "Facility Name": "Ocean Medical Center",
       "Facility Address": "425 Jack Martin Boulevard Brick",
@@ -318,7 +264,7 @@
     "name": "Southern Ocean Medical Center",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:40.380Z",
+    "checked_at": "2021-02-05T11:26:58.872Z",
     "official": {
       "Facility Name": "Southern Ocean Medical Center",
       "Facility Address": "1173 Beacon Avenue Manahawkin",
@@ -335,7 +281,7 @@
     "name": "Gloucester County Megasite",
     "operated_by": "NJ VSS",
     "available": "yes",
-    "checked_at": "2021-02-05T11:25:36.806Z",
+    "checked_at": "2021-02-05T11:26:50.796Z",
     "official": {
       "Facility Name": "Gloucester County Megasite",
       "Facility Address": "Rowan College of South Jersey 1400 Tanyard Road Sewell",
@@ -353,14 +299,14 @@
     "name": "Henry J Austin Health Center - Site A",
     "operated_by": "NJ VSS",
     "available": "yes",
-    "checked_at": "2021-02-05T11:25:36.806Z",
+    "checked_at": "2021-02-05T11:26:50.796Z",
     "description": " <p>321 N. Warren Street, Trenton, NJ 08618<br/>\n</p>\nThis location is available for 1st and 2nd dose recipients."
   },
   {
     "name": "Paterson Division of Health",
     "operated_by": "NJ VSS",
     "available": "yes",
-    "checked_at": "2021-02-05T11:25:36.806Z",
+    "checked_at": "2021-02-05T11:26:50.796Z",
     "official": {
       "Facility Name": "Paterson Division of Health",
       "Facility Address": "International High School\n200 Grand Street\nPaterson",
@@ -378,7 +324,7 @@
     "name": "Ridgewood Village",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:36.806Z",
+    "checked_at": "2021-02-05T11:26:50.796Z",
     "official": {
       "Facility Name": "Ridgewood Village",
       "Facility Address": "Ridgewood Village Hall 131 North Maple Avenue Ridgewood",
@@ -395,7 +341,7 @@
     "name": "Cape May County Department of Health",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:36.806Z",
+    "checked_at": "2021-02-05T11:26:50.796Z",
     "official": {
       "Facility Name": "Cape May County Department of Health",
       "Facility Address": "6 Moore Road DN 601\nCape May Court House",
@@ -412,7 +358,7 @@
     "name": "Inspira Medical Center",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:36.806Z",
+    "checked_at": "2021-02-05T11:26:50.796Z",
     "official": {
       "Facility Name": "Inspira Medical Center",
       "Facility Address": "1505 W. Sherman Avenue Vineland",
@@ -429,7 +375,7 @@
     "name": "Inspira Medical Center Mullica Hill",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:36.806Z",
+    "checked_at": "2021-02-05T11:26:50.796Z",
     "official": {
       "Facility Name": "Inspira Medical Center Mullica Hill",
       "Facility Address": "700 Mullica Hill Road Mullica Hill",
@@ -446,7 +392,7 @@
     "name": "Capital Health System - Hopewell",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:36.806Z",
+    "checked_at": "2021-02-05T11:26:50.796Z",
     "official": {
       "Facility Name": "Capital Health System - Hopewell",
       "Facility Address": "1 Capital Way Pennington",
@@ -463,7 +409,7 @@
     "name": "MERCER COUNTY DIVISION OF PUBLIC HE",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:36.806Z",
+    "checked_at": "2021-02-05T11:26:50.796Z",
     "official": {
       "Facility Name": "MERCER COUNTY DIVISION OF PUBLIC HE",
       "Facility Address": "350 LAWRENCE STATION ROAD, LAWRENCEVILLE",
@@ -480,7 +426,7 @@
     "name": "Rutgers Eric B. Chandler Health Center",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:36.806Z",
+    "checked_at": "2021-02-05T11:26:50.796Z",
     "official": {
       "Facility Name": "Rutgers Eric B. Chandler Health Center",
       "Facility Address": "277 George Street New Brunswick",
@@ -497,7 +443,7 @@
     "name": "Somerset County Department of Health",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:36.806Z",
+    "checked_at": "2021-02-05T11:26:50.796Z",
     "official": {
       "Facility Name": "Somerset County Department of Health",
       "Facility Address": "Raritan Valley Community College 118 Lamington Road Branchburg",
@@ -514,7 +460,7 @@
     "name": "City of Elizabeth Health Department",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-05T11:25:36.806Z",
+    "checked_at": "2021-02-05T11:26:50.796Z",
     "official": {
       "Facility Name": "City of Elizabeth Health Department",
       "Facility Address": "418 Palmer Street\nElizabeth",
@@ -524,6 +470,3406 @@
       "Facility Website": "https://covidvaccine.nj.gov/",
       "simpleName": "city of elizabeth health department",
       "simpleAddress": "418 palmer street elizabeth",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Atlanticare Health Services FQHC",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Atlanticare Health Services FQHC",
+      "Facility Address": "1401 Atlantic Avenue, Suite 2800\nAtlantic City",
+      "County": "Atlantic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(609) 572-6040",
+      "Facility Website": "",
+      "simpleName": "atlanticare health services fqhc",
+      "simpleAddress": "1401 atlantic avenue, suite 2800 atlantic city",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Atlantic County Health Department",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Atlantic County Health Department",
+      "Facility Address": "Atlantic Cape Community College",
+      "County": "Atlantic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://atlantic-county.org/covid/covid-vaccinations.asp",
+      "simpleName": "atlantic county health department",
+      "simpleAddress": "atlantic cape community college",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Atlantic County Megasite",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Atlantic County Megasite",
+      "Facility Address": "Atlantic City Convention Center 1 Convention Boulevard Atlantic City",
+      "County": "Atlantic",
+      "Minimum Age": "16 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccination.atlanticare.org/",
+      "simpleName": "atlantic county megasite",
+      "simpleAddress": "atlantic city convention center 1 convention boulevard atlantic city",
+      "isMegasite": true
+    }
+  },
+  {
+    "name": "MediLink RxCare Hammonton, LLC",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "MediLink RxCare Hammonton, LLC",
+      "Facility Address": "44 South White Horse Pike\nHammonton",
+      "County": "Atlantic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(609) 956-1900",
+      "Facility Website": "https://medilinkrxcare.com",
+      "simpleName": "medilink rxcare hammonton, llc",
+      "simpleAddress": "44 south white horse pike hammonton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #612",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #612",
+      "Facility Address": "23 Bethel Road\nSomers Point",
+      "County": "Atlantic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #612",
+      "simpleAddress": "23 bethel road somers point",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #633",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #633",
+      "Facility Address": "616 White Horse Pike\nAbsecon",
+      "County": "Atlantic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #633",
+      "simpleAddress": "616 white horse pike absecon",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Southern Jersey Family Medical Centers Atlantic City Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Southern Jersey Family Medical Centers Atlantic City Center",
+      "Facility Address": "1301 Atlantic Avenue Atlantic City",
+      "County": "Atlantic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(800) 486-0131",
+      "Facility Website": "https://sjfmc.org",
+      "simpleName": "southern jersey family medical centers atlantic city center",
+      "simpleAddress": "1301 atlantic avenue atlantic city",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Southern Jersey Family Medical Centers English Creek",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Southern Jersey Family Medical Centers English Creek",
+      "Facility Address": "3003 English Crrek Avenue, Unit C6 Egg Harbor Township",
+      "County": "Atlantic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(800) 486-0131",
+      "Facility Website": "https://sjfmc.org",
+      "simpleName": "southern jersey family medical centers english creek",
+      "simpleAddress": "3003 english crrek avenue, unit c6 egg harbor township",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Southern Jersey Family Medical Centers Hammonton Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Southern Jersey Family Medical Centers Hammonton Center",
+      "Facility Address": "860 S. White Horse Pike Hammonton",
+      "County": "Atlantic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(800) 486-0131",
+      "Facility Website": "https://sjfmc.org",
+      "simpleName": "southern jersey family medical centers hammonton center",
+      "simpleAddress": "860 s white horse pike hammonton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Southern Jersey Family Medical Centers Merle Pavilion (formerly Pleasantville Center)",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Southern Jersey Family Medical Centers Merle Pavilion (formerly Pleasantville Center)",
+      "Facility Address": "932 South Main Street Pleasantville",
+      "County": "Atlantic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(800) 486-0131",
+      "Facility Website": "https://sjfmc.org",
+      "simpleName": "southern jersey family medical centers merle pavilion formerly pleasantville center",
+      "simpleAddress": "932 south main street pleasantville",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Bergen County",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Bergen County",
+      "Facility Address": "Bergen New Bridge Medical Center Annex Alternate Care Facility 230 East Ridgewood Avenue Paramus",
+      "County": "Bergen",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(800) 730-2762",
+      "Facility Website": "https://BergenCOVIDvaccine.com",
+      "simpleName": "bergen county",
+      "simpleAddress": "bergen new bridge medical center annex alternate care facility 230 east ridgewood avenue paramus",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ENGLEWOOD HEALTH DEPARTMENT",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ENGLEWOOD HEALTH DEPARTMENT",
+      "Facility Address": "73 S VAN BRUNT ST, ENGLEWOOD",
+      "County": "",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "201-871-6440 - leave message",
+      "Facility Website": "https://cityofenglewood.org/coronavirus",
+      "simpleName": "englewood health department",
+      "simpleAddress": "73 s van brunt st, englewood",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Garfield Health Dept",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Garfield Health Dept",
+      "Facility Address": "60 ELIZABETH ST, GARFIELD",
+      "County": "Bergen",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "551-224-4193",
+      "Facility Website": "https://www.garfieldnj.org",
+      "simpleName": "garfield health dept",
+      "simpleAddress": "60 elizabeth st, garfield",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Haworth Apothecary",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Haworth Apothecary",
+      "Facility Address": "169 Terrace Street \nHaworth",
+      "County": "Bergen",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 384-7171",
+      "Facility Website": "https://haworthapothecary.com/covid-19-vaccine",
+      "simpleName": "haworth apothecary",
+      "simpleAddress": "169 terrace street haworth",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Holy Name Medical Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Holy Name Medical Center",
+      "Facility Address": "Richard Rodda Community Center Teaneck",
+      "County": "Bergen",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://holyname.org",
+      "simpleName": "holy name medical center",
+      "simpleAddress": "richard rodda community center teaneck",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "North Hudson Community Action - Hackensack",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "North Hudson Community Action - Hackensack",
+      "Facility Address": "25 East Salem Street, Suite 600 Hackensack",
+      "County": "Bergen",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 210-0200",
+      "Facility Website": "https://nhcac.org/",
+      "simpleName": "north hudson community action hackensack",
+      "simpleAddress": "25 east salem street, suite 600 hackensack",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "North Hudson Community Action - Garfield",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "North Hudson Community Action - Garfield",
+      "Facility Address": "535 Midland Avenue Garfield",
+      "County": "Bergen",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 210-0200",
+      "Facility Website": "https://nhcac.org/",
+      "simpleName": "north hudson community action garfield",
+      "simpleAddress": "535 midland avenue garfield",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "North Hudson Community Action - Englewood",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "North Hudson Community Action - Englewood",
+      "Facility Address": "197 South Van Brunt Street Englewood",
+      "County": "Bergen",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 210-0200",
+      "Facility Website": "https://nhcac.org/",
+      "simpleName": "north hudson community action englewood",
+      "simpleAddress": "197 south van brunt street englewood",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Riverside Medical Group - Saddle Brook",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Riverside Medical Group - Saddle Brook",
+      "Facility Address": "299 Market Street, Suite 100 Saddle Brook",
+      "County": "Bergen",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 368-1717",
+      "Facility Website": "https://riversidemedgroup.com",
+      "simpleName": "riverside medical group saddle brook",
+      "simpleAddress": "299 market street, suite 100 saddle brook",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG Urgent Care Center - Lodi",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG Urgent Care Center - Lodi",
+      "Facility Address": "184 Essex Street Lodi",
+      "County": "Bergen",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 843-3207",
+      "Facility Website": "https://riversidemedgroup.com/riverside-urgent-care/",
+      "simpleName": "rmg urgent care center lodi",
+      "simpleAddress": "184 essex street lodi",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG PED RIVER EDGWTR",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG PED RIVER EDGWTR",
+      "Facility Address": "935 RIVER RD, EDGEWATER",
+      "County": "Bergen",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://riversidemedgroup.com",
+      "simpleName": "rmg ped river edgwtr",
+      "simpleAddress": "935 river rd, edgewater",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG PED MAIN RDGFD PRK",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG PED MAIN RDGFD PRK",
+      "Facility Address": "200 MAIN ST, RIDGEFIELD PARK",
+      "County": "",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://riversidemedgroup.com",
+      "simpleName": "rmg ped main rdgfd prk",
+      "simpleAddress": "200 main st, ridgefield park",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG MED 870 PALISADE TEANECK",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG MED 870 PALISADE TEANECK",
+      "Facility Address": "870 PALISADE AVENUE, TEANECK",
+      "County": "Bergen",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://riversidemedgroup.com",
+      "simpleName": "rmg med 870 palisade teaneck",
+      "simpleAddress": "870 palisade avenue, teaneck",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG MED MAYWOOD",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG MED MAYWOOD",
+      "Facility Address": "1 MAYWOOD AVENUE, MAYWOOD",
+      "County": "Bergen",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://riversidemedgroup.com",
+      "simpleName": "rmg med maywood",
+      "simpleAddress": "1 maywood avenue, maywood",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #169",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #169",
+      "Facility Address": "40 Nathaniel Place\nEnglewood",
+      "County": "Bergen",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #169",
+      "simpleAddress": "40 nathaniel place englewood",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy of Rochelle Park",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy of Rochelle Park",
+      "Facility Address": "220 West Passaic Street Rochelle Park",
+      "County": "Bergen",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy of rochelle park",
+      "simpleAddress": "220 west passaic street rochelle park",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "The Valley Hospital",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "The Valley Hospital",
+      "Facility Address": "223 North Van Dien Ridgewood",
+      "County": "Bergen",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(800) Valley1 (800) 825-5391",
+      "Facility Website": "https://valleyhealth.com/covid-19-vaccine-eligibility",
+      "simpleName": "the valley hospital",
+      "simpleAddress": "223 north van dien ridgewood",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Boyd’s Pharmacy of Mansfield",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Boyd’s Pharmacy of Mansfield",
+      "Facility Address": "23202 Columbus Road, Suite E\nColumbus",
+      "County": "Burlington",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(609) 298-7474",
+      "Facility Website": "https://boydsrxs.com",
+      "simpleName": "boyd s pharmacy of mansfield",
+      "simpleAddress": "23202 columbus road, suite e columbus",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Boyd's Pharmacy of Medford",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Boyd's Pharmacy of Medford",
+      "Facility Address": "5-100 Wilkins Station Road\nMedford",
+      "County": "Burlington",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(609) 975-8197",
+      "Facility Website": "https://boydsrxs.com",
+      "simpleName": "boyd s pharmacy of medford",
+      "simpleAddress": "5 100 wilkins station road medford",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Boyd’s Pharmacy of Pemberton",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Boyd’s Pharmacy of Pemberton",
+      "Facility Address": "17 Fort Dix Road\nPemberton",
+      "County": "Burlington",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(609) 894-8288",
+      "Facility Website": "https://boydsrxs.com",
+      "simpleName": "boyd s pharmacy of pemberton",
+      "simpleAddress": "17 fort dix road pemberton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Burlington County Megasite",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Burlington County Megasite",
+      "Facility Address": "Moorestown Mall (Lord & Taylor)\n400 & 401 NJ-38 Moorestown",
+      "County": "Burlington",
+      "Minimum Age": "16 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://virtua.org/vaccine",
+      "simpleName": "burlington county megasite",
+      "simpleAddress": "moorestown mall lord & taylor 400 & 401 nj 38 moorestown",
+      "isMegasite": true
+    }
+  },
+  {
+    "name": "RMG Urgent Care Center - Willingboro",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG Urgent Care Center - Willingboro",
+      "Facility Address": "4318 Route 130 North Willingboro",
+      "County": "Burlington",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(609) 871-2045",
+      "Facility Website": "https://www.riversidemedgroup.com/services/urgent-care/willingboro-nj/",
+      "simpleName": "rmg urgent care center willingboro",
+      "simpleAddress": "4318 route 130 north willingboro",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG MED MOORESTOWN",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG MED MOORESTOWN",
+      "Facility Address": "740 MARNE HWY STE 206, MOORESTOWN",
+      "County": "",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "856-778-4009",
+      "Facility Website": "https://riversidemedgroup.com",
+      "simpleName": "rmg med moorestown",
+      "simpleAddress": "740 marne hwy ste 206, moorestown",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #525",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #525",
+      "Facility Address": "892 Union Mill Road\nMount Laurel",
+      "County": "Burlington",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #525",
+      "simpleAddress": "892 union mill road mount laurel",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #540",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #540",
+      "Facility Address": "208 Route 70\nMedford",
+      "County": "Burlington",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "856-627-8137",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #540",
+      "simpleAddress": "208 route 70 medford",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Southern Jersey Family Medical Centers Burlington City Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Southern Jersey Family Medical Centers Burlington City Center",
+      "Facility Address": "651 High Street Burlington City",
+      "County": "Burlington",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(800) 486-0131",
+      "Facility Website": "https://sjfmc.org",
+      "simpleName": "southern jersey family medical centers burlington city center",
+      "simpleAddress": "651 high street burlington city",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Southern Jersey Family Medical Centers Buttonwood Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Southern Jersey Family Medical Centers Buttonwood Center",
+      "Facility Address": "600 Pemberton Mills Road Pemberton",
+      "County": "Burlington",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(800) 486-0131",
+      "Facility Website": "https://sjfmc.org",
+      "simpleName": "southern jersey family medical centers buttonwood center",
+      "simpleAddress": "600 pemberton mills road pemberton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "CAMcare Health Corporation",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "CAMcare Health Corporation",
+      "Facility Address": "817 Federal Street Camden",
+      "County": "Camden",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(856) 583-2400",
+      "Facility Website": "https://camcare.net/camcare-appointments",
+      "simpleName": "camcare health corporation",
+      "simpleAddress": "817 federal street camden",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "CAMcare Health Corporation",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "CAMcare Health Corporation",
+      "Facility Address": "121 South White Horse Pike Clementon",
+      "County": "Camden",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(856) 583-2400",
+      "Facility Website": "",
+      "simpleName": "camcare health corporation",
+      "simpleAddress": "121 south white horse pike clementon",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Camden County Vaccination Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Camden County Vaccination Center",
+      "Facility Address": "Camden County College Blackwood",
+      "County": "Camden",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://camdencounty.com/vaccineregistration/",
+      "simpleName": "camden county vaccination center",
+      "simpleAddress": "camden county college blackwood",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "OSBORN FAMILY HEALTH CENTER ADULTS",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "OSBORN FAMILY HEALTH CENTER ADULTS",
+      "Facility Address": "1601 HADDON AVE, CAMDEN",
+      "County": "",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://osbornfamilyhealthcenter.com",
+      "simpleName": "osborn family health center adults",
+      "simpleAddress": "1601 haddon ave, camden",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Project H.O.P.E.",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Project H.O.P.E.",
+      "Facility Address": "519-525 West Street\nCamden",
+      "County": "Camden",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(856) 968-2320",
+      "Facility Website": "https://projecthopecamden.org",
+      "simpleName": "project h o p e",
+      "simpleAddress": "519 525 west street camden",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Riverside Medical Group Camden",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Riverside Medical Group Camden",
+      "Facility Address": "318 White Horse Pike Haddon Heights",
+      "County": "Camden",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(856) 547-6000",
+      "Facility Website": "https://riversidemedgroup.com/adult-medicine/haddon-heights-nj/",
+      "simpleName": "riverside medical group camden",
+      "simpleAddress": "318 white horse pike haddon heights",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG Mount Ephraim",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG Mount Ephraim",
+      "Facility Address": "2 South Black Horse Pike\nMount Ephraim",
+      "County": "Camden",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(856) 931-3107",
+      "Facility Website": "",
+      "simpleName": "rmg mount ephraim",
+      "simpleAddress": "2 south black horse pike mount ephraim",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG Urgent Care Center - Cherry Hill",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG Urgent Care Center - Cherry Hill",
+      "Facility Address": "2322 Route 38 Cherry Hill",
+      "County": "Camden",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(856) 779-0783",
+      "Facility Website": "https://riversidemedgroup.com/riverside-urgent-care/",
+      "simpleName": "rmg urgent care center cherry hill",
+      "simpleAddress": "2322 route 38 cherry hill",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Rowan University School of Osteopathic Medicine",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Rowan University School of Osteopathic Medicine",
+      "Facility Address": "1 Medical Drive \nStratford",
+      "County": "Camden",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(888) 253-9133",
+      "Facility Website": "https://rowanmedicine.com/vaccine",
+      "simpleName": "rowan university school of osteopathic medicine",
+      "simpleAddress": "1 medical drive stratford",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #507",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #507",
+      "Facility Address": "1200 Chews Landing Road \nLaurel Springs",
+      "County": "Camden",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "856-627-8137",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #507",
+      "simpleAddress": "1200 chews landing road laurel springs",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #531",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #531",
+      "Facility Address": "Route 73 & Minck Avenue\nWest Berlin",
+      "County": "Camden",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "856-627-8137",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #531",
+      "simpleAddress": "route 73 & minck avenue west berlin",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy Of Rio Grande",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy Of Rio Grande",
+      "Facility Address": "1700 Route 47 South\nRio Grande",
+      "County": "Cape May",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy of rio grande",
+      "simpleAddress": "1700 route 47 south rio grande",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #603",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #603",
+      "Facility Address": "4 West Roosevelt Boulevard\nMarmora",
+      "County": "Cape May",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #603",
+      "simpleAddress": "4 west roosevelt boulevard marmora",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "City of Vineland Health Department",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "City of Vineland Health Department",
+      "Facility Address": "",
+      "County": "Cumberland",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://health.vinelandcity.org/covid19/vaccine-information/",
+      "simpleName": "city of vineland health department",
+      "simpleAddress": "",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Complete Care Health Network",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Complete Care Health Network",
+      "Facility Address": "70 Cohansey Street Bridgeton",
+      "County": "Cumberland",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(856) 451-4700",
+      "Facility Website": "https://completecarenj.org/",
+      "simpleName": "complete care health network",
+      "simpleAddress": "70 cohansey street bridgeton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Cumberland County Department of Health",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Cumberland County Department of Health",
+      "Facility Address": "",
+      "County": "Cumberland",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://co.cumberland.nj.us/ccdoh",
+      "simpleName": "cumberland county department of health",
+      "simpleAddress": "",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #505",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #505",
+      "Facility Address": "2130 N 2nd Street\nMillville",
+      "County": "Cumberland",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #505",
+      "simpleAddress": "2130 n 2nd street millville",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #526",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #526",
+      "Facility Address": "1000 North Pearl Street\nBridgeton",
+      "County": "Cumberland",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #526",
+      "simpleAddress": "1000 north pearl street bridgeton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Clara Maass Medical Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Clara Maass Medical Center",
+      "Facility Address": "1 Clara Maass Drive Belleville",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://rwjbh.org/covid19vaccine",
+      "simpleName": "clara maass medical center",
+      "simpleAddress": "1 clara maass drive belleville",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "East Orange General Hospital",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "East Orange General Hospital",
+      "Facility Address": "300 Central Avenue East Orange",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 672-8400",
+      "Facility Website": "https://eogh.org",
+      "simpleName": "east orange general hospital",
+      "simpleAddress": "300 central avenue east orange",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Jewish Renaissance Medical Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Jewish Renaissance Medical Center",
+      "Facility Address": "359 13th Avenue Newark",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 376-9333",
+      "Facility Website": "https://jrmc.us/",
+      "simpleName": "jewish renaissance medical center",
+      "simpleAddress": "359 13th avenue newark",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Liss Pharmacy",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Liss Pharmacy",
+      "Facility Address": "794 Mount Prospect Avenue\nNewark",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 483-4749",
+      "Facility Website": "https://lisspharmacy.com",
+      "simpleName": "liss pharmacy",
+      "simpleAddress": "794 mount prospect avenue newark",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Newark Beth Israel Medical Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Newark Beth Israel Medical Center",
+      "Facility Address": "201 Lyons Avenue Newark",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://rwjbh.org/covid19vaccine",
+      "simpleName": "newark beth israel medical center",
+      "simpleAddress": "201 lyons avenue newark",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Newark Community Health Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Newark Community Health Center",
+      "Facility Address": "741 Broadway\nNewark",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 483-1300",
+      "Facility Website": "https://nchcfqhc.org/",
+      "simpleName": "newark community health center",
+      "simpleAddress": "741 broadway newark",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Newark Community Health Center - Ferry Street",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Newark Community Health Center - Ferry Street",
+      "Facility Address": "92 Ferry Street Newark",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 323-3669",
+      "Facility Website": "https://nchcfqhc.org/",
+      "simpleName": "newark community health center ferry street",
+      "simpleAddress": "92 ferry street newark",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Newark Community Health Center - East Orange",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Newark Community Health Center - East Orange",
+      "Facility Address": "444 William Street\nEast Orange",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 675-1900",
+      "Facility Website": "https://nchcfqhc.org/",
+      "simpleName": "newark community health center east orange",
+      "simpleAddress": "444 william street east orange",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Newark Community Health Center - Irvington",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Newark Community Health Center - Irvington",
+      "Facility Address": "1148-1150 Springfield Avenue Irvington",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 675-1900",
+      "Facility Website": "https://nchcfqhc.org/",
+      "simpleName": "newark community health center irvington",
+      "simpleAddress": "1148 1150 springfield avenue irvington",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Newark Community Health Center - Orange",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Newark Community Health Center - Orange",
+      "Facility Address": "37 North Day Street, Floor 3 Orange",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 323-3669",
+      "Facility Website": "https://nchcfqhc.org/",
+      "simpleName": "newark community health center orange",
+      "simpleAddress": "37 north day street, floor 3 orange",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Newark Community Health Center - Ludlow Street",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Newark Community Health Center - Ludlow Street",
+      "Facility Address": "101 Ludlow Street Newark",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://nchcfqhc.org/",
+      "simpleName": "newark community health center ludlow street",
+      "simpleAddress": "101 ludlow street newark",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Newark Department of Health and Community Wellness",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Newark Department of Health and Community Wellness",
+      "Facility Address": "110 William Steet\nNewark",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 219-6620",
+      "Facility Website": "https://newarknj.gov/departments/healthcommunitywellness",
+      "simpleName": "newark department of health and community wellness",
+      "simpleAddress": "110 william steet newark",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "NUTLEY HEALTH DEPT ADULT CLINIC",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "NUTLEY HEALTH DEPT ADULT CLINIC",
+      "Facility Address": "149 CHESTNUT ST, NUTLEY",
+      "County": "Essex",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "973-877-8456",
+      "Facility Website": "https://essexcovid.org",
+      "simpleName": "nutley health dept adult clinic",
+      "simpleAddress": "149 chestnut st, nutley",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Riverside Medical Group",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Riverside Medical Group",
+      "Facility Address": "195 Cortlandt Street\nBelleville",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 759-1221",
+      "Facility Website": "",
+      "simpleName": "riverside medical group",
+      "simpleAddress": "195 cortlandt street belleville",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Riverside Urgent Care",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Riverside Urgent Care",
+      "Facility Address": "135 Bloomfield Avenue\nBloomfield",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 748-7459",
+      "Facility Website": "",
+      "simpleName": "riverside urgent care",
+      "simpleAddress": "135 bloomfield avenue bloomfield",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG PED FRANKLIN NTLY",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG PED FRANKLIN NTLY",
+      "Facility Address": "228 FRANKLIN AVE, NUTLEY",
+      "County": "Essex",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://riversidemedgroup.com",
+      "simpleName": "rmg ped franklin ntly",
+      "simpleAddress": "228 franklin ave, nutley",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Saint James Health Adult Clinic",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Saint James Health Adult Clinic",
+      "Facility Address": "228 Lafayette Street Newark",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 789-8111",
+      "Facility Website": "https://saintjameshealth.com/",
+      "simpleName": "saint james health adult clinic",
+      "simpleAddress": "228 lafayette street newark",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Saint Barnabas Medical Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Saint Barnabas Medical Center",
+      "Facility Address": "94 Old Short Hills Road Livingston",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://rwjbh.org/covid19vaccine",
+      "simpleName": "saint barnabas medical center",
+      "simpleAddress": "94 old short hills road livingston",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #216",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #216",
+      "Facility Address": "206 Springfield Avenue\nNewark",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #216",
+      "simpleAddress": "206 springfield avenue newark",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy Of Livingston",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy Of Livingston",
+      "Facility Address": "483 South Livingston Avenue\nLivingston",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy of livingston",
+      "simpleAddress": "483 south livingston avenue livingston",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Saint Michael's Medical Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Saint Michael's Medical Center",
+      "Facility Address": "St. Mike's POD 111 Central Avenue Newark",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 877-5000",
+      "Facility Website": "https://signupgenius.com/go/10C0D44A4AD2BA3FBCF8-sign2",
+      "simpleName": "saint michael s medical center",
+      "simpleAddress": "st mike s pod 111 central avenue newark",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Vanguard Medical Group",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Vanguard Medical Group",
+      "Facility Address": "271 Grove Avenue, Suite A\nVerona",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(908) 858-3232",
+      "Facility Website": "https://vanguardmedgroup.com",
+      "simpleName": "vanguard medical group",
+      "simpleAddress": "271 grove avenue, suite a verona",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG Urgent Care Center - Woodbury",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG Urgent Care Center - Woodbury",
+      "Facility Address": "875 Mantua Pike Woodbury",
+      "County": "Gloucester",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://www.riversidemedgroup.com/services/urgent-care/woodbury-nj/",
+      "simpleName": "rmg urgent care center woodbury",
+      "simpleAddress": "875 mantua pike woodbury",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite of Glassboro",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite of Glassboro",
+      "Facility Address": "201 William Dalton Drive\nGlassboro",
+      "County": "Gloucester",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "856-627-8137",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite of glassboro",
+      "simpleAddress": "201 william dalton drive glassboro",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #546",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #546",
+      "Facility Address": "143 Bridgeton Pike\nMullica Hill",
+      "County": "Gloucester",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #546",
+      "simpleAddress": "143 bridgeton pike mullica hill",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Alliance Health Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Alliance Health Center",
+      "Facility Address": "115 Christopher Columbus Drive\nJersey City",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 451-6300",
+      "Facility Website": "https://alliancech.org/",
+      "simpleName": "alliance health center",
+      "simpleAddress": "115 christopher columbus drive jersey city",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Carepoint Bayonne Medical Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Carepoint Bayonne Medical Center",
+      "Facility Address": "29 Eeast 29th Street Bayonne",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 858-6088",
+      "Facility Website": "",
+      "simpleName": "carepoint bayonne medical center",
+      "simpleAddress": "29 eeast 29th street bayonne",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Christ Hospital",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Christ Hospital",
+      "Facility Address": "176 Palisade Avenue Jersey City",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 795-8200",
+      "Facility Website": "",
+      "simpleName": "christ hospital",
+      "simpleAddress": "176 palisade avenue jersey city",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hoboken Department of Health",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hoboken Department of Health",
+      "Facility Address": "308 Willow Steet Hoboken",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 420-2375",
+      "Facility Website": "https://hobokennj.gov/vaccine",
+      "simpleName": "hoboken department of health",
+      "simpleAddress": "308 willow steet hoboken",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hudson Regional Health Commission - USS Juneau Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hudson Regional Health Commission - USS Juneau Center",
+      "Facility Address": "110 Hackensack Avenue\nKearny",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://hudsoncovidvax.org/",
+      "simpleName": "hudson regional health commission uss juneau center",
+      "simpleAddress": "110 hackensack avenue kearny",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Jersey City Medical Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Jersey City Medical Center",
+      "Facility Address": "355 Grand Street Jersey City",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://rwjbh.org/covid19vaccine",
+      "simpleName": "jersey city medical center",
+      "simpleAddress": "355 grand street jersey city",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Metropolitan Family Health Network",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Metropolitan Family Health Network",
+      "Facility Address": "935 Garfield Avenue Jersey City",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://www.metropolitanfhn.com/",
+      "simpleName": "metropolitan family health network",
+      "simpleAddress": "935 garfield avenue jersey city",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "North Bergen Health Department",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "North Bergen Health Department",
+      "Facility Address": "1116 43rd Street\nNorth Bergen",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 392-2084",
+      "Facility Website": "",
+      "simpleName": "north bergen health department",
+      "simpleAddress": "1116 43rd street north bergen",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "North Hudson Community Action",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "North Hudson Community Action",
+      "Facility Address": "714 31st Street\nUnion City",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 210-0200",
+      "Facility Website": "https://nhcac.org",
+      "simpleName": "north hudson community action",
+      "simpleAddress": "714 31st street union city",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "North Hudson Community Action",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "North Hudson Community Action",
+      "Facility Address": "324 Palisade Avenue\nJersey City",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 210-0200",
+      "Facility Website": "https://nhcac.org",
+      "simpleName": "north hudson community action",
+      "simpleAddress": "324 palisade avenue jersey city",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "North Hudson Community Action",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "North Hudson Community Action",
+      "Facility Address": "326 Harrison Avenue\nHarrison",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 210-0200",
+      "Facility Website": "https://nhcac.org",
+      "simpleName": "north hudson community action",
+      "simpleAddress": "326 harrison avenue harrison",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "North Hudson Community Action",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "North Hudson Community Action",
+      "Facility Address": "1116 43rd Street\nNorth Bergen",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 210-0200",
+      "Facility Website": "https://nhcac.org",
+      "simpleName": "north hudson community action",
+      "simpleAddress": "1116 43rd street north bergen",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "North Hudson Community Action",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "North Hudson Community Action",
+      "Facility Address": "5301 Broadway West New York",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 210-0200",
+      "Facility Website": "https://nhcac.org/",
+      "simpleName": "north hudson community action",
+      "simpleAddress": "5301 broadway west new york",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG Hudson Hoboken",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG Hudson Hoboken",
+      "Facility Address": "1111 Hudson Steet Hoboken",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://www.riversidemedgroup.com/",
+      "simpleName": "rmg hudson hoboken",
+      "simpleAddress": "1111 hudson steet hoboken",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG Palisades Jersey City",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG Palisades Jersey City",
+      "Facility Address": "324 Palisade Avenue Jersey City",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://www.riversidemedgroup.com/",
+      "simpleName": "rmg palisades jersey city",
+      "simpleAddress": "324 palisade avenue jersey city",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG MED JFK BLVD JC",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG MED JFK BLVD JC",
+      "Facility Address": "2440 JOHN F. KENNEDY BOULEVARD, JERSEY CITY",
+      "County": "Hudson",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://www.riversidemedgroup.com/",
+      "simpleName": "rmg med jfkboulevardjc",
+      "simpleAddress": "2440 john f kennedy boulevard, jersey city",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG MED 432 BDWY BAYONNE",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG MED 432 BDWY BAYONNE",
+      "Facility Address": "432 BROADWAY, BAYONNE",
+      "County": "Hudson",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://www.riversidemedgroup.com/",
+      "simpleName": "rmg med 432 bdwy bayonne",
+      "simpleAddress": "432 broadway, bayonne",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG PED WASH HOBOKEN",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG PED WASH HOBOKEN",
+      "Facility Address": "609 WASHINGTON STREET, HOBOKEN",
+      "County": "Hudson",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://riversidemedgroup.com",
+      "simpleName": "rmg ped wash hoboken",
+      "simpleAddress": "609 washington street, hoboken",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Riverside Medical Group Secaucus",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Riverside Medical Group Secaucus",
+      "Facility Address": "714 10th Steet Secaucus",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://www.riversidemedgroup.com/",
+      "simpleName": "riverside medical group secaucus",
+      "simpleAddress": "714 10th steet secaucus",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hunterdon County Health Department",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hunterdon County Health Department",
+      "Facility Address": "Hunterdon County HazMat Building 314 State Route 12 County Complex Flemington",
+      "County": "Hunterdon",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://www.co.hunterdon.nj.us/Coronavirus/clinics.html",
+      "simpleName": "hunterdon county health department",
+      "simpleAddress": "hunterdon county hazmat building 314 state route 12 county complex flemington",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hunterdon Family Medicine at Cornerstone",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hunterdon Family Medicine at Cornerstone",
+      "Facility Address": "9100 Wescott Drive, Suite 103\nFlemington",
+      "County": "Hunterdon",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(908) 237-4238",
+      "Facility Website": "",
+      "simpleName": "hunterdon family medicine at cornerstone",
+      "simpleAddress": "9100 wescott drive, suite 103 flemington",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hunterdon Family Medicine at Highlands",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hunterdon Family Medicine at Highlands",
+      "Facility Address": "61 Frontage Road Hampton",
+      "County": "Hunterdon",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(908) 237-4238",
+      "Facility Website": "https://www.hunterdonhealthcare.org/service/primarycare/primarycarecenters/highlands/",
+      "simpleName": "hunterdon family medicine at highlands",
+      "simpleAddress": "61 frontage road hampton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hunterdon Family Medicine at Delaware Valley",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hunterdon Family Medicine at Delaware Valley",
+      "Facility Address": "200 Frenchtown Road Milford",
+      "County": "Hunterdon",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(908) 237-4238",
+      "Facility Website": "https://www.hunterdonhealthcare.org/service/primarycare/delawarevalley/",
+      "simpleName": "hunterdon family medicine at delaware valley",
+      "simpleAddress": "200 frenchtown road milford",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hunterdon Family Medicine at Hickory Run",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hunterdon Family Medicine at Hickory Run",
+      "Facility Address": "384 County Road 513 Califon",
+      "County": "Hunterdon",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(908) 832-2125",
+      "Facility Website": "https://hunterdonhealthcare.org",
+      "simpleName": "hunterdon family medicine at hickory run",
+      "simpleAddress": "384 county road 513 califon",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hunterdon Family Practice and OB",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hunterdon Family Practice and OB",
+      "Facility Address": "1100 Wescott Drive\nFlemington",
+      "County": "Hunterdon",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(908) 237-4238",
+      "Facility Website": "",
+      "simpleName": "hunterdon family practice and ob",
+      "simpleAddress": "1100 wescott drive flemington",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hunterdon Family Medicine at Phillips Barber",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hunterdon Family Medicine at Phillips Barber",
+      "Facility Address": "72 Alexander Avenue\nLambertville",
+      "County": "Hunterdon",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(908) 237-4238",
+      "Facility Website": "",
+      "simpleName": "hunterdon family medicine at phillips barber",
+      "simpleAddress": "72 alexander avenue lambertville",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hunterdon Family Medicine at Riverfield - Clinton",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hunterdon Family Medicine at Riverfield - Clinton",
+      "Facility Address": "1738 Route 31 North, Suite 203\nClinton",
+      "County": "Hunterdon",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(908) 237-4238",
+      "Facility Website": "",
+      "simpleName": "hunterdon family medicine at riverfield clinton",
+      "simpleAddress": "1738 route 31 north, suite 203 clinton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hunterdon Healthcare POD",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hunterdon Healthcare POD",
+      "Facility Address": "2100 Wescott Drive Flemington",
+      "County": "Hunterdon",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(908) 237-4238",
+      "Facility Website": "https://hunterdonhealthcare.org",
+      "simpleName": "hunterdon healthcare pod",
+      "simpleAddress": "2100 wescott drive flemington",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #457",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #457",
+      "Facility Address": "272 Highway 202 & Route 31N\nFlemington",
+      "County": "Hunterdon",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #457",
+      "simpleAddress": "272 highway 202 & route 31n flemington",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #497",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #497",
+      "Facility Address": "50 Walmart Plaza\nClinton",
+      "County": "Hunterdon",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #497",
+      "simpleAddress": "50 walmart plaza clinton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "CITY OF TRENTON DEPARTMENT OF HEALT",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "CITY OF TRENTON DEPARTMENT OF HEALT",
+      "Facility Address": "350 LAWRENCE STATION ROAD, LAWRENCE",
+      "County": "Mercer",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "609-989-3242",
+      "Facility Website": "https://covidvac@trentonnj.org/covid19",
+      "simpleName": "city of trenton department of healt",
+      "simpleAddress": "350 lawrence station road, lawrence",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Henry J Austin Health Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Henry J Austin Health Center",
+      "Facility Address": "112 Ewing Street\nTrenton",
+      "County": "Mercer",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(609) 278-5900",
+      "Facility Website": "https://henryjaustin.org",
+      "simpleName": "henry j austin health center",
+      "simpleAddress": "112 ewing street trenton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Henry J Austin Health Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Henry J Austin Health Center",
+      "Facility Address": "321 North Warren Street\nTrenton",
+      "County": "Mercer",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(609) 278-5900",
+      "Facility Website": "https://henryjaustin.org",
+      "simpleName": "henry j austin health center",
+      "simpleAddress": "321 north warren street trenton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hunterdon Family & Sports Medicine at Hopewell Valley",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hunterdon Family & Sports Medicine at Hopewell Valley",
+      "Facility Address": "84 Route 31 North, Suite 103 Pennington",
+      "County": "Mercer",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(609) 730-1771",
+      "Facility Website": "https://hunterdonhealthcare.org",
+      "simpleName": "hunterdon family & sports medicine at hopewell valley",
+      "simpleAddress": "84 route 31 north, suite 103 pennington",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Princeton Department of Health",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Princeton Department of Health",
+      "Facility Address": "1 Monument Drive\nPrinceton",
+      "County": "Mercer",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(609) 497-7608",
+      "Facility Website": "https://princetonnj.gov",
+      "simpleName": "princeton department of health",
+      "simpleAddress": "1 monument drive princeton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Riverside Urgent Care of Ewing",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Riverside Urgent Care of Ewing",
+      "Facility Address": "1680 N Olden Avenue Ewing Township",
+      "County": "Mercer",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(609) 896-0485",
+      "Facility Website": "https://riversidemedgroup.com/riverside-urgent-care/",
+      "simpleName": "riverside urgent care of ewing",
+      "simpleAddress": "1680 n olden avenue ewing township",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RWJ Hamilton",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RWJ Hamilton",
+      "Facility Address": "1 Hamilton Health Place Hamilton",
+      "County": "Mercer",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://rwjbh.org/covid19vaccine",
+      "simpleName": "rwj hamilton",
+      "simpleAddress": "1 hamilton health place hamilton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Of Hamilton #521",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Of Hamilton #521",
+      "Facility Address": "130 Marketplace Boulevard\nHamilton",
+      "County": "Mercer",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite of hamilton #521",
+      "simpleAddress": "130 marketplace boulevard hamilton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #533",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #533",
+      "Facility Address": "2555 Pennington Road\nPennington",
+      "County": "Mercer",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #533",
+      "simpleAddress": "2555 pennington road pennington",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "The Heldrich Hotel and Conference Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "The Heldrich Hotel and Conference Center",
+      "Facility Address": "10 Livingston Avenue, New Brunswick, NJ 08901",
+      "County": "Middlesex",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "732-745-3100",
+      "Facility Website": "https://www.middlesexcountynj.gov/covid19",
+      "simpleName": "the heldrich hotel and conference center",
+      "simpleAddress": "10 livingston avenue, new brunswick, nj 08901",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "East Brunswick Community Arts Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "East Brunswick Community Arts Center",
+      "Facility Address": "721 Cranbury Road, East Brunswick, NJ 08816",
+      "County": "Middlesex",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "732-745-3100",
+      "Facility Website": "https://www.middlesexcountynj.gov/covid19",
+      "simpleName": "east brunswick community arts center",
+      "simpleAddress": "721 cranbury road, east brunswick, nj 08816",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Jewish Renaissance Medical Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Jewish Renaissance Medical Center",
+      "Facility Address": "275 Hobart Street\nPerth Amboy",
+      "County": "Middlesex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 376-9333",
+      "Facility Website": "",
+      "simpleName": "jewish renaissance medical center",
+      "simpleAddress": "275 hobart street perth amboy",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "JRF Community Health Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "JRF Community Health Center",
+      "Facility Address": "1931 Oak Tree Road Edison",
+      "County": "Middlesex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 482-9600",
+      "Facility Website": "https://rwjbh.org/covid19vaccine",
+      "simpleName": "jrf community health center",
+      "simpleAddress": "1931 oak tree road edison",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Monroe Township Senior Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Monroe Township Senior Center",
+      "Facility Address": "12 Halsey Reed Road, Monroe Township, NJ 08831",
+      "County": "Middlesex",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "732-745-3100",
+      "Facility Website": "https://www.middlesexcountynj.gov/covid19",
+      "simpleName": "monroe township senior center",
+      "simpleAddress": "12 halsey reed road, monroe township, nj 08831",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Middlesex County Megasite",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Middlesex County Megasite",
+      "Facility Address": "NJ Convention & Expo Center 97 Sunfield Avenue Edison",
+      "County": "Middlesex",
+      "Minimum Age": "16 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://rwjbh.org/covid19vaccine",
+      "simpleName": "middlesex county megasite",
+      "simpleAddress": "nj convention & expo center 97 sunfield avenue edison",
+      "isMegasite": true
+    }
+  },
+  {
+    "name": "Middlesex County Fire Academy",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Middlesex County Fire Academy",
+      "Facility Address": "1001 Fire Academy Drive Sayreville",
+      "County": "Middlesex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 745-3100",
+      "Facility Website": "https://middlesexcountynj.gov/covid19",
+      "simpleName": "middlesex county fire academy",
+      "simpleAddress": "1001 fire academy drive sayreville",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Middlesex County Office of Health Services",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Middlesex County Office of Health Services",
+      "Facility Address": "1 Ericsson Drive, Piscataway, NJ 08854",
+      "County": "Middlesex",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "732-745-3100",
+      "Facility Website": "https://www.middlesexcountynj.gov/covid19",
+      "simpleName": "middlesex county office of health services",
+      "simpleAddress": "1 ericsson drive, piscataway, nj 08854",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Middlesex County Vocational and Technical School – Perth Amboy Campus",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Middlesex County Vocational and Technical School – Perth Amboy Campus",
+      "Facility Address": "457 High St, Perth Amboy, NJ 08861",
+      "County": "Middlesex",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "732-745-3100",
+      "Facility Website": "https://www.middlesexcountynj.gov/covid19",
+      "simpleName": "middlesex county vocational and technical school perth amboy campus",
+      "simpleAddress": "457 high st, perth amboy, nj 08861",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Penn Medicine Princeton Medical Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Penn Medicine Princeton Medical Center",
+      "Facility Address": "1 Plainsboro Rd, Plainsboro, NJ 08536",
+      "County": "Middlesex",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://www.princetonhcs.org/",
+      "simpleName": "penn medicine princeton medical center",
+      "simpleAddress": "1 plainsboro rd, plainsboro, nj 08536",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Riverside Urgent Care of East Brunswick",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Riverside Urgent Care of East Brunswick",
+      "Facility Address": "418 NJ-18 East Brunswick",
+      "County": "Middlesex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 613-6168",
+      "Facility Website": "https://riversidemedgroup.com",
+      "simpleName": "riverside urgent care of east brunswick",
+      "simpleAddress": "418 nj 18 east brunswick",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Robert Wood Johnson University Hospital",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Robert Wood Johnson University Hospital",
+      "Facility Address": "1 RWJ Place New Brunswick",
+      "County": "Middlesex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://rwjbh.org/covid19vaccine",
+      "simpleName": "robert wood johnson university hospital",
+      "simpleAddress": "1 rwj place new brunswick",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG MED US 1 EDISON",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG MED US 1 EDISON",
+      "Facility Address": "1130 US-1, EDISON",
+      "County": "",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://riversidemedgroup.com",
+      "simpleName": "rmg med us 1 edison",
+      "simpleAddress": "1130 us 1, edison",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #106",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #106",
+      "Facility Address": "380 Summerhill Road Spotswood",
+      "County": "Middlesex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #106",
+      "simpleAddress": "380 summerhill road spotswood",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #585",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #585",
+      "Facility Address": "1422 West Prospect Avenue East Brunswick",
+      "County": "Middlesex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 238-4646",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #585",
+      "simpleAddress": "1422 west prospect avenue east brunswick",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Woodbridge Health Department",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Woodbridge Health Department",
+      "Facility Address": "2 George Frederick Plaza\nWoodbridge",
+      "County": "Middlesex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 855-0600",
+      "Facility Website": "https://twp.woodbridge.nj.us/198/Health-Human-Services",
+      "simpleName": "woodbridge health department",
+      "simpleAddress": "2 george frederick plaza woodbridge",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "CentraState Medical Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "CentraState Medical Center",
+      "Facility Address": "901 West Main Street Freehold",
+      "County": "Monmouth",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://centrastatevaccine.com/",
+      "simpleName": "centrastate medical center",
+      "simpleAddress": "901 west main street freehold",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Community Health Center of Asbury Park",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Community Health Center of Asbury Park",
+      "Facility Address": "1301 Main Street\nAsbury Park",
+      "County": "Monmouth",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 774-6333",
+      "Facility Website": "https://vnachc.org/",
+      "simpleName": "community health center of asbury park",
+      "simpleAddress": "1301 main street asbury park",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Freehold Family Health Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Freehold Family Health Center",
+      "Facility Address": "579 Park Avenue\nFreehold",
+      "County": "Monmouth",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 294-2540",
+      "Facility Website": "https://vnachc.org/",
+      "simpleName": "freehold family health center",
+      "simpleAddress": "579 park avenue freehold",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Keyport Community Health Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Keyport Community Health Center",
+      "Facility Address": "35 Broad Street\nKeyport",
+      "County": "Monmouth",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 888-4149",
+      "Facility Website": "https://vnachc.org/",
+      "simpleName": "keyport community health center",
+      "simpleAddress": "35 broad street keyport",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Monmouth County Health Department",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Monmouth County Health Department",
+      "Facility Address": "50 East Main Street\nFreehold",
+      "County": "Monmouth",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 431-7456",
+      "Facility Website": "https://visitmonmouth.com/health",
+      "simpleName": "monmouth county health department",
+      "simpleAddress": "50 east main street freehold",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Monmouth Medical Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Monmouth Medical Center",
+      "Facility Address": "300 Second Ave Long Branch",
+      "County": "Monmouth",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://rwjbh.org/covid19vaccine",
+      "simpleName": "monmouth medical center",
+      "simpleAddress": "300 second ave long branch",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Monmouth Medical Center Southern Campus",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Monmouth Medical Center Southern Campus",
+      "Facility Address": "600 River Avenue Lakewood",
+      "County": "Monmouth",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://rwjbh.org/covid19vaccine",
+      "simpleName": "monmouth medical center southern campus",
+      "simpleAddress": "600 river avenue lakewood",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Ocean Health Initiatives",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Ocean Health Initiatives",
+      "Facility Address": "3600 Route 66\nNeptune",
+      "County": "Monmouth",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 363-6655",
+      "Facility Website": "https://ohinj.org",
+      "simpleName": "ocean health initiatives",
+      "simpleAddress": "3600 route 66 neptune",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Red Bank Primary Care Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Red Bank Primary Care Center",
+      "Facility Address": "188 East Bergen Place\nRed Bank",
+      "County": "Monmouth",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 219-6620",
+      "Facility Website": "https://vnachc.org/",
+      "simpleName": "red bank primary care center",
+      "simpleAddress": "188 east bergen place red bank",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #193",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #193",
+      "Facility Address": "280 Route 9\nMorganville",
+      "County": "Monmouth",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #193",
+      "simpleAddress": "280 route 9 morganville",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #626",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #626",
+      "Facility Address": "3120 Route 35\nHazlet",
+      "County": "Monmouth",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #626",
+      "simpleAddress": "3120 route 35 hazlet",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Morris County Megasite",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Morris County Megasite",
+      "Facility Address": "Rockaway Townsquare Mall 301 Mount Hope Avenue Rockaway",
+      "County": "Morris",
+      "Minimum Age": "16 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://atlantichealth.org/covidvaccine",
+      "simpleName": "morris county megasite",
+      "simpleAddress": "rockaway townsquare mall 301 mount hope avenue rockaway",
+      "isMegasite": true
+    }
+  },
+  {
+    "name": "RMG Urgent Care Center - Ledgewood",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG Urgent Care Center - Ledgewood",
+      "Facility Address": "501 State Route 10 Ledgewood",
+      "County": "Morris",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 584-6751",
+      "Facility Website": "",
+      "simpleName": "rmg urgent care center ledgewood",
+      "simpleAddress": "501 state route 10 ledgewood",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy of Flanders",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy of Flanders",
+      "Facility Address": "90 Bartley Flanders Road\nFlanders",
+      "County": "Morris",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy of flanders",
+      "simpleAddress": "90 bartley flanders road flanders",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy Of Greater Morristown",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy Of Greater Morristown",
+      "Facility Address": "178 East Hanover Avenue\nCedar Knolls",
+      "County": "Morris",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy of greater morristown",
+      "simpleAddress": "178 east hanover avenue cedar knolls",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #297",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #297",
+      "Facility Address": "60 Beaverbrook Road\nLincoln Park",
+      "County": "Morris",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #297",
+      "simpleAddress": "60 beaverbrook road lincoln park",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "CHEMED",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "CHEMED",
+      "Facility Address": "1771 Madison Avenue Lakewood",
+      "County": "Ocean",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 364-6666",
+      "Facility Website": "https://chemedhealth.org",
+      "simpleName": "chemed",
+      "simpleAddress": "1771 madison avenue lakewood",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Community Medical Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Community Medical Center",
+      "Facility Address": "99 Highway 37 West Toms River",
+      "County": "Ocean",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://rwjbh.org/covid19vaccine",
+      "simpleName": "community medical center",
+      "simpleAddress": "99 highway 37 west toms river",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Long Beach Island Health Department",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Long Beach Island Health Department",
+      "Facility Address": "",
+      "County": "Ocean",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(609) 492-1212",
+      "Facility Website": "https://lbihealth.com/",
+      "simpleName": "long beach island health department",
+      "simpleAddress": "",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Ocean County Health Department",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Ocean County Health Department",
+      "Facility Address": "Multiple locations",
+      "County": "Ocean",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(800) 342-9738",
+      "Facility Website": "https://ochd.org/covid19-vaccine-update/",
+      "simpleName": "ocean county health department",
+      "simpleAddress": "multiple locations",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Ocean Health Initiatives",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Ocean Health Initiatives",
+      "Facility Address": "10 Stockton Drive\nToms River",
+      "County": "Ocean",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 363-6655",
+      "Facility Website": "https://ohinj.org",
+      "simpleName": "ocean health initiatives",
+      "simpleAddress": "10 stockton drive toms river",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Ocean Health Initiatives",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Ocean Health Initiatives",
+      "Facility Address": "101 2nd Street Lakewood",
+      "County": "Ocean",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 363-6655",
+      "Facility Website": "https://ohinj.org",
+      "simpleName": "ocean health initiatives",
+      "simpleAddress": "101 2nd street lakewood",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Ocean Health Initiatives",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Ocean Health Initiatives",
+      "Facility Address": "798 County Road 539\nLittle Egg Harbor",
+      "County": "Ocean",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 363-6655",
+      "Facility Website": "https://ohinj.org",
+      "simpleName": "ocean health initiatives",
+      "simpleAddress": "798 county road 539 little egg harbor",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #649",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #649",
+      "Facility Address": "297 Route 72\nManahawkin",
+      "County": "Ocean",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #649",
+      "simpleAddress": "297 route 72 manahawkin",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #656",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #656",
+      "Facility Address": "860 Fischer Boulevard\nToms River",
+      "County": "Ocean",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #656",
+      "simpleAddress": "860 fischer boulevard toms river",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Clifton Health Department",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Clifton Health Department",
+      "Facility Address": "Clifton High School 333 Colfax Avenue Clifton",
+      "County": "Passaic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 803-5702",
+      "Facility Website": "https://www.cliftonnj.org",
+      "simpleName": "clifton health department",
+      "simpleAddress": "clifton high school 333 colfax avenue clifton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "North Hudson Community Action",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "North Hudson Community Action",
+      "Facility Address": "220 Passaic Sreet\nPassaic",
+      "County": "Passaic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 210-0200",
+      "Facility Website": "https://nhcac.org",
+      "simpleName": "north hudson community action",
+      "simpleAddress": "220 passaic sreet passaic",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "PASSAIC DIVISION OF HEALTH- ADULT",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "PASSAIC DIVISION OF HEALTH- ADULT",
+      "Facility Address": "333 PASSAIC ST, PASSAIC",
+      "County": "",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "973-365-5656",
+      "Facility Website": "https://cityofpassaic.com",
+      "simpleName": "passaic division of health adult",
+      "simpleAddress": "333 passaic st, passaic",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Passaic County Department of Health Services",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Passaic County Department of Health Services",
+      "Facility Address": "Multiple Locations",
+      "County": "Passaic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 881-4396",
+      "Facility Website": "https://passaiccountynj.org/coronavirus",
+      "simpleName": "passaic county department of health services",
+      "simpleAddress": "multiple locations",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG PED 675 BDWY PATERSON",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG PED 675 BDWY PATERSON",
+      "Facility Address": "675 BROADWAY, PATERSON",
+      "County": "",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://riversidemedgroup.com",
+      "simpleName": "rmg ped 675 bdwy paterson",
+      "simpleAddress": "675 broadway, paterson",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG MED E33RD PATERSON",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG MED E33RD PATERSON",
+      "Facility Address": "28 EAST 33RD STREET, PATERSON",
+      "County": "",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://riversidemedgroup.com",
+      "simpleName": "rmg med e33rd paterson",
+      "simpleAddress": "28 east 33rd street, paterson",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy of Little Falls",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy of Little Falls",
+      "Facility Address": "171 Browertown Road\nLittle Falls",
+      "County": "Passaic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy of little falls",
+      "simpleAddress": "171 browertown road little falls",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "St. Joseph's University Medical Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "St. Joseph's University Medical Center",
+      "Facility Address": "703 Main Street Paterson",
+      "County": "Passaic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "973-754-5300",
+      "Facility Website": "",
+      "simpleName": "st joseph s university medical center",
+      "simpleAddress": "703 main street paterson",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "St. Joseph's Wayne Medical Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "St. Joseph's Wayne Medical Center",
+      "Facility Address": "224 Hamburg Turnpike Wayne",
+      "County": "Passaic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "973-754-5300",
+      "Facility Website": "",
+      "simpleName": "st joseph s wayne medical center",
+      "simpleAddress": "224 hamburg turnpike wayne",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #257",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #257",
+      "Facility Address": "23 Marshall Hill Road\nWest Milford",
+      "County": "Passaic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #257",
+      "simpleAddress": "23 marshall hill road west milford",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Saint Mary’s General Hospital",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Saint Mary’s General Hospital",
+      "Facility Address": "350 Boulevard Passaic",
+      "County": "Passaic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 365-4300",
+      "Facility Website": "",
+      "simpleName": "saint mary s general hospital",
+      "simpleAddress": "350 boulevard passaic",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Wayne Health Department",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Wayne Health Department",
+      "Facility Address": "475 Valley Road \nWayne",
+      "County": "Passaic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 694-1800",
+      "Facility Website": "https://waynetownship.com/health.html",
+      "simpleName": "wayne health department",
+      "simpleAddress": "475 valley road wayne",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Salem County",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Salem County",
+      "Facility Address": "",
+      "County": "",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "",
+      "simpleName": "salem county",
+      "simpleAddress": "",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Salem County Department of Health",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Salem County Department of Health",
+      "Facility Address": "110 5th Street, Suite 500 Salem",
+      "County": "Salem",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(856) 935-7510",
+      "Facility Website": "https://health.salemcountynj.gov/",
+      "simpleName": "salem county department of health",
+      "simpleAddress": "110 5th street, suite 500 salem",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Southern Jersey Family Medical Centers Salem Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Southern Jersey Family Medical Centers Salem Center",
+      "Facility Address": "238 East Broadway Salem",
+      "County": "Salem",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(856) 935-7711",
+      "Facility Website": "",
+      "simpleName": "southern jersey family medical centers salem center",
+      "simpleAddress": "238 east broadway salem",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hunterdon Family Medicine at Bridgewater",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hunterdon Family Medicine at Bridgewater",
+      "Facility Address": "250 Route 28, Suite 100\nBridgewater",
+      "County": "Somerset",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(908) 237-4238",
+      "Facility Website": "",
+      "simpleName": "hunterdon family medicine at bridgewater",
+      "simpleAddress": "250 route 28, suite 100 bridgewater",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hunterdon Family Medicine at Your Doctors Care",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hunterdon Family Medicine at Your Doctors Care",
+      "Facility Address": "71 U.S. 206 Hillsborough Township",
+      "County": "Somerset",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(908) 685-1887",
+      "Facility Website": "https://hunterdonhealthcare.org",
+      "simpleName": "hunterdon family medicine at your doctors care",
+      "simpleAddress": "71 u s 206 hillsborough township",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG Urgent Care Center - Watchung",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG Urgent Care Center - Watchung",
+      "Facility Address": "1569 US-22 Watchung",
+      "County": "Somerset",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(908) 322-2631",
+      "Facility Website": "https://riversidemedgroup.com/services/urgent-care/watchung-nj/",
+      "simpleName": "rmg urgent care center watchung",
+      "simpleAddress": "1569 us 22 watchung",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RWJ Somerset",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RWJ Somerset",
+      "Facility Address": "110 Rehill Avenue Somerville",
+      "County": "Somerset",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://rwjbh.org/covid19vaccine",
+      "simpleName": "rwj somerset",
+      "simpleAddress": "110 rehill avenue somerville",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #447",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #447",
+      "Facility Address": "601 Route 206\nHillsborough",
+      "County": "Somerset",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #447",
+      "simpleAddress": "601 route 206 hillsborough",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy of Bernardsville",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy of Bernardsville",
+      "Facility Address": "93 Morristown Road/Route #202\nBernardsville",
+      "County": "Somerset",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy of bernardsville",
+      "simpleAddress": "93 morristown road route #202 bernardsville",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Newton Medical Center - Romano Conference Center",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Newton Medical Center - Romano Conference Center",
+      "Facility Address": "175 High Street Newton",
+      "County": "Sussex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://atlantichealth.org/conditions-treatments/coronavirus-covid-19/covid-vaccine.html",
+      "simpleName": "newton medical center romano conference center",
+      "simpleAddress": "175 high street newton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy of Byram",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy of Byram",
+      "Facility Address": "90-80 Route 206\nStanhope",
+      "County": "Sussex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy of byram",
+      "simpleAddress": "90 80 route 206 stanhope",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy of Newton",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy of Newton",
+      "Facility Address": "125 Water Street\nNewton",
+      "County": "Sussex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy of newton",
+      "simpleAddress": "125 water street newton",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Sussex County Department of Health & Human Services",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Sussex County Department of Health & Human Services",
+      "Facility Address": "Sussex County Fairgrounds 37 Plains Road Augusta",
+      "County": "Sussex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 579-9488",
+      "Facility Website": "https://sussex.nj.us",
+      "simpleName": "sussex county department of health & human services",
+      "simpleAddress": "sussex county fairgrounds 37 plains road augusta",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Union County",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Union County",
+      "Facility Address": "",
+      "County": "",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "",
+      "simpleName": "union county",
+      "simpleAddress": "",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Neighborhood Health Services - Plainfield",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Neighborhood Health Services - Plainfield",
+      "Facility Address": "1700 Myrtle Avenue Plainfield",
+      "County": "Union",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(908) 540-0229",
+      "Facility Website": "https://nhscnj.org",
+      "simpleName": "neighborhood health services plainfield",
+      "simpleAddress": "1700 myrtle avenue plainfield",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Rahway Health Department",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Rahway Health Department",
+      "Facility Address": "1 City Hall Plaza Rahway",
+      "County": "Union",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 827-2000",
+      "Facility Website": "https://cityofrahway.org",
+      "simpleName": "rahway health department",
+      "simpleAddress": "1 city hall plaza rahway",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RMG Urgent Care Center Springfield",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RMG Urgent Care Center Springfield",
+      "Facility Address": "200 US Highway 22 Springfield",
+      "County": "Union",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 376-4341",
+      "Facility Website": "https://riversidemedgroup.com",
+      "simpleName": "rmg urgent care center springfield",
+      "simpleAddress": "200 us highway 22 springfield",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "RWJ Rahway Clinic",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "RWJ Rahway Clinic",
+      "Facility Address": "865 Stone Street Rahway",
+      "County": "Union",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://rwjbh.org/covid19vaccine",
+      "simpleName": "rwj rahway clinic",
+      "simpleAddress": "865 stone street rahway",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #163",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #163",
+      "Facility Address": "76 Cenral Avenue\nClark",
+      "County": "Union",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #163",
+      "simpleAddress": "76 cenral avenue clark",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy Of Elizabeth",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy Of Elizabeth",
+      "Facility Address": "865 West Grand Street\nElizabeth",
+      "County": "Union",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy of elizabeth",
+      "simpleAddress": "865 west grand street elizabeth",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Union County - Kean University",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Union County - Kean University",
+      "Facility Address": "1000 Morris Avenue Union",
+      "County": "Union",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "908-518-4307",
+      "Facility Website": "https://ucnj.org/covid19/covid-19-vaccination/",
+      "simpleName": "union county kean university",
+      "simpleAddress": "1000 morris avenue union",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hackettstown Medical Center - Medical Office Building",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hackettstown Medical Center - Medical Office Building",
+      "Facility Address": "651 Willow Grove Street Hackettstown",
+      "County": "Warren",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://atlantichealth.org/conditions-treatments/coronavirus-covid-19/covid-vaccine.html",
+      "simpleName": "hackettstown medical center medical office building",
+      "simpleAddress": "651 willow grove street hackettstown",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hunterdon Family Medicine @ Riverfield - Hawk Point",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Hunterdon Family Medicine @ Riverfield - Hawk Point",
+      "Facility Address": "6 Clubhouse Drive Washington",
+      "County": "Warren",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(908) 237-4238",
+      "Facility Website": "",
+      "simpleName": "hunterdon family medicine @ riverfield hawk point",
+      "simpleAddress": "6 clubhouse drive washington",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite of Greenwich",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite of Greenwich",
+      "Facility Address": "1207 Route 22\nPhillipsburg",
+      "County": "Warren",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite of greenwich",
+      "simpleAddress": "1207 route 22 phillipsburg",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ShopRite Pharmacy #434",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ShopRite Pharmacy #434",
+      "Facility Address": "2 Clubhouse Drive Washington",
+      "County": "Warren",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://vaccines.shoprite.com",
+      "simpleName": "shoprite pharmacy #434",
+      "simpleAddress": "2 clubhouse drive washington",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "St. Luke's Hospital - Warren Campus",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "St. Luke's Hospital - Warren Campus",
+      "Facility Address": "185 Roseberry Street Phillipsburg",
+      "County": "Warren",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(866) 785-8537, select option 7",
+      "Facility Website": "https://slhn.org/covid-19/protect-yourself/covid-19-vaccine",
+      "simpleName": "st luke s hospital warren campus",
+      "simpleAddress": "185 roseberry street phillipsburg",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Warren County Health Department",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "Warren County Health Department",
+      "Facility Address": "Multiple Locations",
+      "County": "Warren",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "908-878-3188",
+      "Facility Website": "https://co.warren.nj.us/Healthdept/WCCOVIDVaccine.html",
+      "simpleName": "warren county health department",
+      "simpleAddress": "multiple locations",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "ZUFALL HEALTH CENTER HACKETTSTOWN-",
+    "operated_by": null,
+    "available": "unknowable",
+    "checked_at": null,
+    "official": {
+      "Facility Name": "ZUFALL HEALTH CENTER HACKETTSTOWN-",
+      "Facility Address": "117 SEBER RD, HACKETTSTOWN",
+      "County": "Warren",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "908-452-5366",
+      "Facility Website": "",
+      "simpleName": "zufall health center hackettstown",
+      "simpleAddress": "117 seber rd, hackettstown",
       "isMegasite": false
     }
   }
