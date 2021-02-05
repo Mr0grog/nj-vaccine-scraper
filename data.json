@@ -43,8 +43,7 @@
     "name": "Donald Payne School of Technology",
     "operated_by": "Essex County",
     "available": "no",
-    "checked_at": "2021-02-05T11:23:56.023Z",
-    "official": null
+    "checked_at": "2021-02-05T11:25:40.428Z"
   },
   {
     "name": "Gloucester County Health - Mega Site",
@@ -59,5 +58,473 @@
     "available": "yes",
     "checked_at": "2021-02-05T11:23:53.025Z",
     "official": null
+  },
+  {
+    "name": "Essex County - Kmart-West Orange",
+    "operated_by": "Essex County",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.428Z",
+    "official": {
+      "Facility Name": "Essex County - Kmart-West Orange",
+      "Facility Address": "235 Prospect Ave, \nWest Orange",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 324-9950",
+      "Facility Website": "https://essexcovid.org",
+      "simpleName": "essex county kmart west orange",
+      "simpleAddress": "235 prospect ave, west orange",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Essex County - Essex County College",
+    "operated_by": "Essex County",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.428Z",
+    "official": {
+      "Facility Name": "Essex County - Essex County College",
+      "Facility Address": "303 University Avenue\nNewark",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 324-9950",
+      "Facility Website": "https://essexcovid.org",
+      "simpleName": "essex county essex county college",
+      "simpleAddress": "303 university avenue newark",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Essex County - West Caldwell Tech",
+    "operated_by": "Essex County",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.428Z",
+    "official": {
+      "Facility Name": "Essex County - West Caldwell Tech",
+      "Facility Address": "620 Passaic Avenue West Caldwell",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 324-9950",
+      "Facility Website": "https://essexcovid.org",
+      "simpleName": "essex county west caldwell tech",
+      "simpleAddress": "620 passaic avenue west caldwell",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Essex County - Sears-Livingston Mall",
+    "operated_by": "Essex County",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.428Z",
+    "official": {
+      "Facility Name": "Essex County - Sears-Livingston Mall",
+      "Facility Address": "112 Eisenhower Parkway Livingston",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 324-9950",
+      "Facility Website": "https://essexcovid.org",
+      "simpleName": "essex county sears livingston mall",
+      "simpleAddress": "112 eisenhower parkway livingston",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Bergen County Megasite",
+    "operated_by": "Hackensack Meridian Health",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.380Z",
+    "official": {
+      "Facility Name": "Bergen County Megasite",
+      "Facility Address": "Racetrack at Meadlowlands 1 Racetrack Drive East Rutherford, NJ",
+      "County": "Bergen",
+      "Minimum Age": "16 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://hackensackmeridianhealth.org/covid19/meadowlands/",
+      "simpleName": "bergen county megasite",
+      "simpleAddress": "racetrack at meadlowlands 1 racetrack drive east rutherford, nj",
+      "isMegasite": true
+    }
+  },
+  {
+    "name": "Hackensack Meridian Health System",
+    "operated_by": "Hackensack Meridian Health",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.380Z",
+    "official": {
+      "Facility Name": "Hackensack Meridian Health System",
+      "Facility Address": "Multiple Locations",
+      "County": "Bergen",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(833) 565-0404",
+      "Facility Website": "https://hackensackmeridianhealth.org/covid19",
+      "simpleName": "hackensack meridian health system",
+      "simpleAddress": "multiple locations",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Hackensack Meridian Health-Mountainside",
+    "operated_by": "Hackensack Meridian Health",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.380Z",
+    "official": {
+      "Facility Name": "Hackensack Meridian Health-Mountainside",
+      "Facility Address": "1 Bay Avenue Montclair",
+      "County": "Essex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://mountainsidehosp.com/covid19vaccine",
+      "simpleName": "hackensack meridian health mountainside",
+      "simpleAddress": "1 bay avenue montclair",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Palisades Medical Center",
+    "operated_by": "Hackensack Meridian Health",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.380Z",
+    "official": {
+      "Facility Name": "Palisades Medical Center",
+      "Facility Address": "7600 River Road North Bergen",
+      "County": "Hudson",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(201) 854-5000",
+      "Facility Website": "https://hackensackmeridianhealth.org/COVID19",
+      "simpleName": "palisades medical center",
+      "simpleAddress": "7600 river road north bergen",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "HMH JFK University Medical Center",
+    "operated_by": "Hackensack Meridian Health",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.380Z",
+    "official": {
+      "Facility Name": "HMH JFK University Medical Center",
+      "Facility Address": "65 James Street Edison",
+      "County": "Middlesex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://www.hackensackmeridianhealth.org/covid19/",
+      "simpleName": "hmh jfk university medical center",
+      "simpleAddress": "65 james street edison",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Raritan Bay Medical Center Old Bridge",
+    "operated_by": "Hackensack Meridian Health",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.380Z",
+    "official": {
+      "Facility Name": "Raritan Bay Medical Center Old Bridge",
+      "Facility Address": "Auxiliary Hall 1 Hospital Plaza Old Bridge",
+      "County": "Middlesex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(844) 494-4325",
+      "Facility Website": "https://www.hackensackmeridianhealth.org/covid19/",
+      "simpleName": "raritan bay medical center old bridge",
+      "simpleAddress": "auxiliary hall 1 hospital plaza old bridge",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Raritan Bay Medical Center Perth Amboy",
+    "operated_by": "Hackensack Meridian Health",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.380Z",
+    "official": {
+      "Facility Name": "Raritan Bay Medical Center Perth Amboy",
+      "Facility Address": "Centennial Hall 530 New Brunswick Avenue Perth Amboy",
+      "County": "Middlesex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(844) 494-4325",
+      "Facility Website": "https://www.hackensackmeridianhealth.org/covid19/",
+      "simpleName": "raritan bay medical center perth amboy",
+      "simpleAddress": "centennial hall 530 new brunswick avenue perth amboy",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Bayshore Medical Center",
+    "operated_by": "Hackensack Meridian Health",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.380Z",
+    "official": {
+      "Facility Name": "Bayshore Medical Center",
+      "Facility Address": "727 North Beers Street Holmdel",
+      "County": "Monmouth",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://www.hackensackmeridianhealth.org/covid19/",
+      "simpleName": "bayshore medical center",
+      "simpleAddress": "727 north beers street holmdel",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "HMH Jersey Shore U.M.C.",
+    "operated_by": "Hackensack Meridian Health",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.380Z",
+    "official": {
+      "Facility Name": "HMH Jersey Shore U.M.C.",
+      "Facility Address": "1945 Route 33 Neptune",
+      "County": "Ocean",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 897-7926",
+      "Facility Website": "https://www.hackensackmeridianhealth.org/covid19/",
+      "simpleName": "hmh jersey shore u m c",
+      "simpleAddress": "1945 route 33 neptune",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Riverview Medical Center",
+    "operated_by": "Hackensack Meridian Health",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.380Z",
+    "official": {
+      "Facility Name": "Riverview Medical Center",
+      "Facility Address": "1 Riverview Plaza Red Bank",
+      "County": "Monmouth",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 741-2700",
+      "Facility Website": "https://www.hackensackmeridianhealth.org/covid19/",
+      "simpleName": "riverview medical center",
+      "simpleAddress": "1 riverview plaza red bank",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Ocean Medical Center",
+    "operated_by": "Hackensack Meridian Health",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.380Z",
+    "official": {
+      "Facility Name": "Ocean Medical Center",
+      "Facility Address": "425 Jack Martin Boulevard Brick",
+      "County": "Ocean",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 836-4144",
+      "Facility Website": "https://www.hackensackmeridianhealth.org/covid19/",
+      "simpleName": "ocean medical center",
+      "simpleAddress": "425 jack martin boulevard brick",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Southern Ocean Medical Center",
+    "operated_by": "Hackensack Meridian Health",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:40.380Z",
+    "official": {
+      "Facility Name": "Southern Ocean Medical Center",
+      "Facility Address": "1173 Beacon Avenue Manahawkin",
+      "County": "Ocean",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(609) 597-6011",
+      "Facility Website": "https://www.hackensackmeridianhealth.org/covid19/",
+      "simpleName": "southern ocean medical center",
+      "simpleAddress": "1173 beacon avenue manahawkin",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Gloucester County Megasite",
+    "operated_by": "NJ VSS",
+    "available": "yes",
+    "checked_at": "2021-02-05T11:25:36.806Z",
+    "official": {
+      "Facility Name": "Gloucester County Megasite",
+      "Facility Address": "Rowan College of South Jersey 1400 Tanyard Road Sewell",
+      "County": "Gloucester",
+      "Minimum Age": "16 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://covidvaccine.nj.gov/",
+      "simpleName": "gloucester county megasite",
+      "simpleAddress": "rowan college of south jersey 1400 tanyard road sewell",
+      "isMegasite": true
+    },
+    "description": "<p>ROWAN COLLEGE OF SOUTH JERSEY - COLLEGE CENTER 1400 TANYARD ROAD, SEWELL, NJ 08080<br/>\n</p>\n<strong><em>Available Vaccines</em></strong>\n<ul>\n<li>Pfizer</li>\n<li>Moderna</li>\n</ul>\nThis location is available for 1st and 2nd dose recipients. "
+  },
+  {
+    "name": "Henry J Austin Health Center - Site A",
+    "operated_by": "NJ VSS",
+    "available": "yes",
+    "checked_at": "2021-02-05T11:25:36.806Z",
+    "description": " <p>321 N. Warren Street, Trenton, NJ 08618<br/>\n</p>\nThis location is available for 1st and 2nd dose recipients."
+  },
+  {
+    "name": "Paterson Division of Health",
+    "operated_by": "NJ VSS",
+    "available": "yes",
+    "checked_at": "2021-02-05T11:25:36.806Z",
+    "official": {
+      "Facility Name": "Paterson Division of Health",
+      "Facility Address": "International High School\n200 Grand Street\nPaterson",
+      "County": "Passaic",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(973) 321-1277",
+      "Facility Website": "https://patersonnjhealth.gov/egov/apps/document/center.egov?view=item;id=69",
+      "simpleName": "paterson division of health",
+      "simpleAddress": "international high school 200 grand street paterson",
+      "isMegasite": false
+    },
+    "description": "<p style=\"color:Red;\"><strong>Currently this location is restricted to those in Passaic county</strong></p></p>\n<strong><em>Available Vaccines</em></strong>\n<ul>\n<li>Moderna</li>\n</ul>\nThis location is available for 1st and 2nd dose recipients. "
+  },
+  {
+    "name": "Ridgewood Village",
+    "operated_by": "NJ VSS",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:36.806Z",
+    "official": {
+      "Facility Name": "Ridgewood Village",
+      "Facility Address": "Ridgewood Village Hall 131 North Maple Avenue Ridgewood",
+      "County": "Bergen",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://covidvaccine.nj.gov/",
+      "simpleName": "ridgewood village",
+      "simpleAddress": "ridgewood village hall 131 north maple avenue ridgewood",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Cape May County Department of Health",
+    "operated_by": "NJ VSS",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:36.806Z",
+    "official": {
+      "Facility Name": "Cape May County Department of Health",
+      "Facility Address": "6 Moore Road DN 601\nCape May Court House",
+      "County": "Cape May",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(609) 463-6581",
+      "Facility Website": "https://covidvaccine.nj.gov/",
+      "simpleName": "cape may county department of health",
+      "simpleAddress": "6 moore road dn 601 cape may court house",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Inspira Medical Center",
+    "operated_by": "NJ VSS",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:36.806Z",
+    "official": {
+      "Facility Name": "Inspira Medical Center",
+      "Facility Address": "1505 W. Sherman Avenue Vineland",
+      "County": "Cumberland",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(856) 508-3510",
+      "Facility Website": "https://covidvaccine.nj.gov/",
+      "simpleName": "inspira medical center",
+      "simpleAddress": "1505 w sherman avenue vineland",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Inspira Medical Center Mullica Hill",
+    "operated_by": "NJ VSS",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:36.806Z",
+    "official": {
+      "Facility Name": "Inspira Medical Center Mullica Hill",
+      "Facility Address": "700 Mullica Hill Road Mullica Hill",
+      "County": "Gloucester",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(856) 508-3510",
+      "Facility Website": "https://covidvaccine.nj.gov/",
+      "simpleName": "inspira medical center mullica hill",
+      "simpleAddress": "700 mullica hill road mullica hill",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Capital Health System - Hopewell",
+    "operated_by": "NJ VSS",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:36.806Z",
+    "official": {
+      "Facility Name": "Capital Health System - Hopewell",
+      "Facility Address": "1 Capital Way Pennington",
+      "County": "Mercer",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "609-537-7468",
+      "Facility Website": "https://covidvaccine.nj.gov/",
+      "simpleName": "capital health system hopewell",
+      "simpleAddress": "1 capital way pennington",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "MERCER COUNTY DIVISION OF PUBLIC HE",
+    "operated_by": "NJ VSS",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:36.806Z",
+    "official": {
+      "Facility Name": "MERCER COUNTY DIVISION OF PUBLIC HE",
+      "Facility Address": "350 LAWRENCE STATION ROAD, LAWRENCEVILLE",
+      "County": "Mercer",
+      "Minimum Age": "",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://covidvaccine.nj.gov",
+      "simpleName": "mercer county division of public he",
+      "simpleAddress": "350 lawrence station road, lawrenceville",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Rutgers Eric B. Chandler Health Center",
+    "operated_by": "NJ VSS",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:36.806Z",
+    "official": {
+      "Facility Name": "Rutgers Eric B. Chandler Health Center",
+      "Facility Address": "277 George Street New Brunswick",
+      "County": "Middlesex",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(732) 235-6700",
+      "Facility Website": "https://covidvaccine.nj.gov/",
+      "simpleName": "rutgers eric b chandler health center",
+      "simpleAddress": "277 george street new brunswick",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "Somerset County Department of Health",
+    "operated_by": "NJ VSS",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:36.806Z",
+    "official": {
+      "Facility Name": "Somerset County Department of Health",
+      "Facility Address": "Raritan Valley Community College 118 Lamington Road Branchburg",
+      "County": "Somerset",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "",
+      "Facility Website": "https://covidvaccine.nj.gov/",
+      "simpleName": "somerset county department of health",
+      "simpleAddress": "raritan valley community college 118 lamington road branchburg",
+      "isMegasite": false
+    }
+  },
+  {
+    "name": "City of Elizabeth Health Department",
+    "operated_by": "NJ VSS",
+    "available": "no",
+    "checked_at": "2021-02-05T11:25:36.806Z",
+    "official": {
+      "Facility Name": "City of Elizabeth Health Department",
+      "Facility Address": "418 Palmer Street\nElizabeth",
+      "County": "Union",
+      "Minimum Age": "18 years",
+      "Phone Number for Appointments + Questions": "(908) 820-4250",
+      "Facility Website": "https://covidvaccine.nj.gov/",
+      "simpleName": "city of elizabeth health department",
+      "simpleAddress": "418 palmer street elizabeth",
+      "isMegasite": false
+    }
   }
 ]
