@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>NJ Vaccine Availability (Proof of Concept)</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: helvetica, arial, sans-serif;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+      }
+
+      #control-bar {
+        padding: 0.5rem 0.5rem;
+        background: #fff;
+        box-shadow: 0 0 5px rgba(0,0,0,0.5);
+        position: sticky;
+        top: 0;
+      }
+
+      #control-bar label {
+        display: inline-block;
+        margin-right: 1rem;
+      }
+
+      #control-bar #control-search-filter-label {
+        align-items: baseline;
+        display: inline-flex;
+        width: 25%;
+      }
+
+      #control-search-filter-label input {
+        flex: 1 1 auto;
+        margin-left: 0.25em;
+        width: 2rem;
+      }
+
+      table {
+        border-collapse: collapse;
+        table-layout: fixed;
+        margin: 0.5rem;
+        width: calc(100% - 1rem);
+      }
+
+      th, td {
+        padding: 0.4em 0.5em;
+        border: 1px solid #999;
+        vertical-align: top;
+      }
+
+      th {
+        background: #eee;
+      }
+
+      .row-county-heading {
+        font-size: 1.2em;
+        font-weight: bold;
+        background: #1c4587;
+        color: #fff;
+      }
+
+      .availability.availability-no {
+        background: #e8a4c8;
+      }
+
+      .availability.availability-yes {
+        background: #a1d76a;
+      }
+
+      .availability.availability-unknown,
+      .availability.availability-unknowable {
+        background: #eee;
+      }
+
+      .column-url a {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 10em;
+      }
+
+      .location-list-item {
+        display: flex;
+        border-top: 1px solid #ddd;
+      }
+
+      .list-availability {
+        font-weight: bold;
+        text-align: center;
+        width: 10em;
+        padding: 0.5em;
+      }
+
+      .availability-icon {
+        display: block;
+        text-align: center;
+        font-size: 2em;
+      }
+
+      .list-availability.availability-no {
+        background: #e8a4c8;
+      }
+
+      .list-availability.availability-yes {
+        background: #a1d76a;
+      }
+
+      .list-availability.availability-unknown,
+      .list-availability.availability-unknowable {
+        background: #eee;
+      }
+
+      .list-location-info {
+        margin-left: 1em;
+        padding: 0.5em;
+      }
+
+      .list-location-name {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="control-bar">
+      <form>
+        <label>
+          <span class="label-text">County:</span>
+          <select id="control-county-filter">
+            <option value="">All</option>
+            <option value="megasites">Megasites</option>
+          </select>
+        </label>
+
+        <label id="control-search-filter-label">
+          <span class="label-text">Search:</span>
+          <input id="control-search-filter" type="text">
+        </label>
+
+        <label>
+          <input id="control-group-county" type="checkbox">
+          <span class="label-text">Group by County</span>
+        </label>
+      </form>
+    </div>
+
+    <div id="main-list"></div>
+
+    <table id="main-grid" class="waffle" cellspacing="0" cellpadding="0">
+    </table>
+
+    <script type="text/javascript">
+      const UPDATE_INTERVAL = 60 * 1000;
+      const DATA_URL = './data.json'
+
+      let controlState = {
+        groupByCounty: false,
+        filterCounty: '',
+        filterText: null
+      };
+
+      function build (name, attributes, children) {
+        const element = document.createElement(name);
+        if (Array.isArray(attributes) && !children) {
+          [attributes, children] = [children, attributes];
+        }
+        if (attributes) {
+          for (let key in attributes) {
+            if (key === 'className') {
+              element[key] = attributes[key]
+            }
+            else {
+              element.setAttribute(key, attributes[key]);
+            }
+          }
+        }
+        if (children) {
+          for (let child of children) {
+            if (child == null) continue;
+            if (typeof child === 'string') {
+              child = document.createTextNode(child);
+            }
+            element.appendChild(child);
+          }
+        }
+        return element;
+      }
+
+      // TODO: this should come from a package that does it better.
+      function timeAgo (time) {
+        const delta = (Date.now() - time);
+        if (delta < 60 * 1000) return '< 1 minute ago';
+
+        const days = Math.floor(delta / (1000 * 60 * 60 * 24));
+        const hours = Math.floor(delta % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
+        const minutes = Math.floor(delta % (1000 * 60 * 60) / (1000 * 60));
+
+        if (days) return `${days} days, ${hours} hours ago`;
+        if (hours) return `${hours} hours, ${minutes} minutes ago`;
+        return `${minutes} minutes ago`;
+      }
+
+      const _htmlToNodesContainer = build('template');
+
+      function htmlToNodes (html) {
+        _htmlToNodesContainer.innerHTML = html;
+        Array.from(_htmlToNodesContainer.querySelectorAll('script')).forEach(n => n.remove());
+        Array.from(_htmlToNodesContainer.querySelectorAll('style')).forEach(n => n.remove());
+        const nodes = _htmlToNodesContainer.content;
+        [].slice.call(_htmlToNodesContainer.content).forEach(n => n.remove());
+        return nodes;
+      }
+
+      const controls = {
+        countyFilter: document.querySelector('#control-county-filter'),
+        search: document.querySelector('#control-search-filter'),
+        groupByCounty: document.querySelector('#control-group-county')
+      };
+
+      function updateControlState () {
+        let changed = false;
+
+        const countyFilter = controls.countyFilter.value;
+        if (controlState.filterCounty !== countyFilter) {
+          controlState.filterCounty = countyFilter;
+          changed = true;
+        }
+
+        const searchFilter = controls.search.value;
+        if (controlState.filterText !== searchFilter) {
+          controlState.filterText = searchFilter;
+          changed = true;
+        }
+
+        const groupByCounty = controls.groupByCounty.checked;
+        if (controlState.groupByCounty !== groupByCounty) {
+          controlState.groupByCounty = groupByCounty;
+          changed = true;
+        }
+
+        return changed;
+      }
+
+      function handleControlChange () {
+        if (updateControlState()) {
+          render(controlState.data);
+        }
+      }
+
+      controls.search.addEventListener('input', handleControlChange);
+      controls.groupByCounty.addEventListener('change', handleControlChange);
+
+      const punctuationPattern = /[.\-–—!@#$%^&*()\[\]'"“”‘’{}\\/;:<>,]/g
+
+      async function update () {
+        const response = await fetch(DATA_URL);
+        const data = await response.json();
+        const sortValues = {
+          'yes': 0,
+          'unknown': 1,
+          'unknowable': 1,
+          'no': 2
+        }
+        data.sort((a, b) => sortValues[a.available] - sortValues[b.available]);
+        data.forEach(record => {
+          let text = [
+            record.name,
+            record.operated_by || '',
+            record.description || '',
+            record.official && record.official.simpleName || '',
+            record.official && record.official.simpleAddress || ''
+          ].join(' ').toLowerCase().replace(punctuationPattern, ' ');
+          record.searchValue = text;
+        });
+
+        controlState.data = data;
+        render(data);
+        setTimeout(update, UPDATE_INTERVAL);
+      }
+
+      function render (data) {
+        const counties = [...new Set(
+          data
+            .map(record => record.official && record.official.County)
+            .filter(name => !!name)
+        )].sort();
+        renderControlBar({counties});
+
+        let filteredData = data;
+        if (controlState.filterCounty) {
+          if (controlState.filterCounty === 'megasites') {
+            filteredData = filteredData.filter(
+              record => record.official && record.official.isMegasite
+            );
+          }
+          else {
+            filteredData = filteredData.filter(
+              record => (record.official && record.official.County) === controlState.filterCounty
+            );
+          }
+        }
+        if (controlState.filterText) {
+          const text = controlState.filterText
+            .toLowerCase()
+            .replace(punctuationPattern, ' ');
+          filteredData = filteredData.filter(record => record.searchValue.includes(text))
+        }
+
+        // Grouping
+        let groups;
+        if (controlState.groupByCounty) {
+          const lookup = [...counties, 'Unknown'].reduce((lookup, county) => {
+            lookup[county] = {name: `${county} County`, records: []};
+            return lookup;
+          }, {});
+          filteredData.forEach(record => {
+            const county = record.official && record.official.County || 'Unknown';
+            lookup[county].records.push(record);
+          });
+          groups = counties.map(name => lookup[name]);
+        }
+        else {
+          groups = [{name: '', records: filteredData}];
+        }
+
+        const table = document.querySelector('#main-grid');
+        let children = renderTableContent(groups);
+        table.innerHTML = '';
+        for (let child of children) {
+          table.appendChild(child);
+        }
+      }
+
+      function renderControlBar ({counties}) {
+        const countySelect = document.querySelector('#control-county-filter');
+        countySelect.removeEventListener('change', handleControlChange);
+
+        const options = [
+          {value: '', text: 'All'},
+          {value: 'megasites', text: 'Megasites'},
+          ...counties.map(county => ({value: county, text: county}))
+        ];
+        countySelect.innerHTML = '';
+        for (let option of options) {
+          countySelect.appendChild(build('option', {value: option.value}, [option.text]))
+        }
+        countySelect.value = controlState.filterCounty;
+
+        countySelect.addEventListener('change', handleControlChange);
+      }
+
+      function renderTableContent (data) {
+        return [
+          ...renderHeaders(),
+          build('tbody', data.map(renderRowGroup).flat())
+        ];
+      }
+
+      function renderHeaders () {
+        return [
+          build('colgroup', [
+            build('td', {className: 'availability'}),
+            build('col', {className: `column-last-update`}),
+            build('col', {className: `column-name`}),
+            build('col', {className: `column-address`}),
+            build('col', {className: `column-county`}),
+            build('col', {className: `column-age`}),
+            build('col', {className: `column-phone`}),
+            build('col', {className: `column-url`}),
+            build('col', {className: `column-description`})
+          ]),
+          build('thead', [
+            build('tr', [
+              build('th', ['Available?']),
+              build('th', ['Last Check']),
+              build('th', ['Facility Name']),
+              build('th', ['Facility Address']),
+              build('th', ['County']),
+              build('th', ['Minimum Age']),
+              build('th', ['Phone']),
+              build('th', ['Website']),
+              build('th', ['Description'])
+            ])
+          ])
+        ]
+      }
+
+      function renderRowGroup (group) {
+        let rows = group.records.map(renderRecord);
+        if (group.name) {
+          return [
+            build('tr', {className: 'row-county-heading'}, [
+              build('td', {colspan: 9}, [group.name])
+            ]),
+            ...rows
+          ];
+        }
+        return rows;
+      }
+
+      function renderRecord (data) {
+        const availableText = {
+          'yes': 'Yes',
+          'no': 'No'
+        }[data.available] || '?'
+
+        let updateText = '-';
+        if (data.checked_at) {
+          updateText = timeAgo(new Date(data.checked_at));
+        }
+
+        let displayUrl = data.official && data.official['Facility Website'];
+        if (displayUrl) {
+          displayUrl = displayUrl.replace(/^https?:\/\//, '');
+        }
+
+        return build('tr', [
+          build('td', {className: `availability availability-${data.available}`}, [
+            availableText
+          ]),
+          build('td', {className: `column-last-update`}, [
+            updateText
+          ]),
+          build('td', {className: `column-name`}, [
+            data.official ? data.official['Facility Name'] : data.name
+          ]),
+          build('td', {className: `column-address`}, [
+            data.official && data.official['Facility Address']
+          ]),
+          build('td', {className: `column-county`}, [
+            data.official && data.official['County']
+          ]),
+          build('td', {className: `column-age`}, [
+            data.official && data.official['Minimum Age']
+          ]),
+          build('td', {className: `column-phone`}, [
+            data.official && data.official['Phone Number for Appointments + Questions']
+          ]),
+          build('td', {className: `column-url`}, [
+            displayUrl
+              ? build('a', {href: data.official['Facility Website']}, [displayUrl])
+              : ''
+          ]),
+          build(
+            'td',
+            {className: `column-description`},
+            [data.description ? htmlToNodes(data.description) : '']
+          )
+        ]);
+      }
+
+      updateControlState();
+      update();
+    </script>
+  </body>
+</html>

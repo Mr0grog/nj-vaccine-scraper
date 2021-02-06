@@ -1,0 +1,42 @@
+name: Build Site
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'site/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        path: scraper
+
+    - name: Checkout gh-pages
+      uses: actions/checkout@v2
+      with:
+        ref: gh-pages
+        path: output
+
+    # Right now this is pretty simple; it'll likely become a more complex build
+    # in the future.
+    - name: Copy site code to gh-pages
+      run: |
+        cp scraper/site/index.html output/index.html
+
+    - name: Commit Updates
+      run: |
+        cd output
+        HAS_CHANGES=$(git diff)
+        if [ -n "$HAS_CHANGES" ]; then
+          git config user.name 'Scraper Bot'
+          git config user.email 'scraper.bot@example.com'
+
+          git add .
+          git commit -m 'Update gh-pages site code from main branch'
+          git push
+        fi
