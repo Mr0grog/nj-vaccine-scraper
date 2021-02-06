@@ -57,6 +57,13 @@
         background: #eee;
       }
 
+      .column-availability { width: 6em; }
+      .column-last-update { width: 8em; }
+      .column-county { width: 8em; }
+      .column-age { width: 6em; }
+      .column-phone { width: 8.5em; }
+      .column-url { width: 11em; }
+
       .row-county-heading {
         font-size: 1.2em;
         font-weight: bold;
@@ -364,7 +371,7 @@
       function renderHeaders () {
         return [
           build('colgroup', [
-            build('td', {className: 'availability'}),
+            build('col', {className: 'column-availability'}),
             build('col', {className: `column-last-update`}),
             build('col', {className: `column-name`}),
             build('col', {className: `column-address`}),
