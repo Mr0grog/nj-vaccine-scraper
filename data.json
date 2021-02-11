@@ -3,7 +3,7 @@
     "name": "Essex County - Kmart-West Orange",
     "operated_by": "Essex County",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:41.993Z",
+    "checked_at": "2021-02-11T07:53:31.769Z",
     "official": {
       "Facility Name": "Essex County - Kmart-West Orange",
       "Facility Address": "235 Prospect Ave, \nWest Orange",
@@ -20,7 +20,7 @@
     "name": "Essex County - Essex County College",
     "operated_by": "Essex County",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:41.993Z",
+    "checked_at": "2021-02-11T07:53:31.769Z",
     "official": {
       "Facility Name": "Essex County - Essex County College",
       "Facility Address": "303 University Avenue\nNewark",
@@ -37,7 +37,7 @@
     "name": "Essex County - West Caldwell Tech",
     "operated_by": "Essex County",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:41.993Z",
+    "checked_at": "2021-02-11T07:53:31.769Z",
     "official": {
       "Facility Name": "Essex County - West Caldwell Tech",
       "Facility Address": "620 Passaic Avenue West Caldwell",
@@ -54,7 +54,7 @@
     "name": "Essex County - Sears-Livingston Mall",
     "operated_by": "Essex County",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:41.993Z",
+    "checked_at": "2021-02-11T07:53:31.769Z",
     "official": {
       "Facility Name": "Essex County - Sears-Livingston Mall",
       "Facility Address": "112 Eisenhower Parkway Livingston",
@@ -71,13 +71,13 @@
     "name": "Donald Payne School of Technology",
     "operated_by": "Essex County",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:41.993Z"
+    "checked_at": "2021-02-11T07:53:31.769Z"
   },
   {
     "name": "Bergen County Megasite",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:42.653Z",
+    "checked_at": "2021-02-11T07:53:32.011Z",
     "official": {
       "Facility Name": "Bergen County Megasite",
       "Facility Address": "Racetrack at Meadlowlands 1 Racetrack Drive East Rutherford, NJ",
@@ -94,7 +94,7 @@
     "name": "Hackensack Meridian Health System",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:42.653Z",
+    "checked_at": "2021-02-11T07:53:32.011Z",
     "official": {
       "Facility Name": "Hackensack Meridian Health System",
       "Facility Address": "Multiple Locations",
@@ -111,7 +111,7 @@
     "name": "Hackensack Meridian Health-Mountainside",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:42.653Z",
+    "checked_at": "2021-02-11T07:53:32.011Z",
     "official": {
       "Facility Name": "Hackensack Meridian Health-Mountainside",
       "Facility Address": "1 Bay Avenue Montclair",
@@ -128,7 +128,7 @@
     "name": "Palisades Medical Center",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:42.653Z",
+    "checked_at": "2021-02-11T07:53:32.011Z",
     "official": {
       "Facility Name": "Palisades Medical Center",
       "Facility Address": "7600 River Road North Bergen",
@@ -145,7 +145,7 @@
     "name": "HMH JFK University Medical Center",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:42.653Z",
+    "checked_at": "2021-02-11T07:53:32.011Z",
     "official": {
       "Facility Name": "HMH JFK University Medical Center",
       "Facility Address": "65 James Street Edison",
@@ -162,7 +162,7 @@
     "name": "Raritan Bay Medical Center Old Bridge",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:42.653Z",
+    "checked_at": "2021-02-11T07:53:32.011Z",
     "official": {
       "Facility Name": "Raritan Bay Medical Center Old Bridge",
       "Facility Address": "Auxiliary Hall 1 Hospital Plaza Old Bridge",
@@ -179,7 +179,7 @@
     "name": "Raritan Bay Medical Center Perth Amboy",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:42.653Z",
+    "checked_at": "2021-02-11T07:53:32.011Z",
     "official": {
       "Facility Name": "Raritan Bay Medical Center Perth Amboy",
       "Facility Address": "Centennial Hall 530 New Brunswick Avenue Perth Amboy",
@@ -196,7 +196,7 @@
     "name": "Bayshore Medical Center",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:42.653Z",
+    "checked_at": "2021-02-11T07:53:32.011Z",
     "official": {
       "Facility Name": "Bayshore Medical Center",
       "Facility Address": "727 North Beers Street Holmdel",
@@ -213,7 +213,7 @@
     "name": "HMH Jersey Shore U.M.C.",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:42.653Z",
+    "checked_at": "2021-02-11T07:53:32.011Z",
     "official": {
       "Facility Name": "HMH Jersey Shore U.M.C.",
       "Facility Address": "1945 Route 33 Neptune",
@@ -230,7 +230,7 @@
     "name": "Riverview Medical Center",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:42.653Z",
+    "checked_at": "2021-02-11T07:53:32.011Z",
     "official": {
       "Facility Name": "Riverview Medical Center",
       "Facility Address": "1 Riverview Plaza Red Bank",
@@ -247,7 +247,7 @@
     "name": "Ocean Medical Center",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:42.653Z",
+    "checked_at": "2021-02-11T07:53:32.011Z",
     "official": {
       "Facility Name": "Ocean Medical Center",
       "Facility Address": "425 Jack Martin Boulevard Brick",
@@ -264,7 +264,7 @@
     "name": "Southern Ocean Medical Center",
     "operated_by": "Hackensack Meridian Health",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:42.653Z",
+    "checked_at": "2021-02-11T07:53:32.011Z",
     "official": {
       "Facility Name": "Southern Ocean Medical Center",
       "Facility Address": "1173 Beacon Avenue Manahawkin",
@@ -281,7 +281,7 @@
     "name": "Gloucester County Megasite",
     "operated_by": "NJ VSS",
     "available": "yes",
-    "checked_at": "2021-02-11T07:46:36.615Z",
+    "checked_at": "2021-02-11T07:53:28.993Z",
     "official": {
       "Facility Name": "Gloucester County Megasite",
       "Facility Address": "Rowan College of South Jersey 1400 Tanyard Road Sewell",
@@ -306,7 +306,7 @@
     "name": "Paterson Division of Health",
     "operated_by": "NJ VSS",
     "available": "yes",
-    "checked_at": "2021-02-11T07:46:36.615Z",
+    "checked_at": "2021-02-11T07:53:28.993Z",
     "official": {
       "Facility Name": "Paterson Division of Health",
       "Facility Address": "International High School\n200 Grand Street\nPaterson",
@@ -324,7 +324,7 @@
     "name": "Ridgewood Village",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:36.615Z",
+    "checked_at": "2021-02-11T07:53:28.993Z",
     "official": {
       "Facility Name": "Ridgewood Village",
       "Facility Address": "Ridgewood Village Hall 131 North Maple Avenue Ridgewood",
@@ -341,7 +341,7 @@
     "name": "Cape May County Department of Health",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:36.615Z",
+    "checked_at": "2021-02-11T07:53:28.993Z",
     "official": {
       "Facility Name": "Cape May County Department of Health",
       "Facility Address": "6 Moore Road DN 601\nCape May Court House",
@@ -358,7 +358,7 @@
     "name": "Inspira Medical Center",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:36.615Z",
+    "checked_at": "2021-02-11T07:53:28.993Z",
     "official": {
       "Facility Name": "Inspira Medical Center",
       "Facility Address": "1505 W. Sherman Avenue Vineland",
@@ -375,7 +375,7 @@
     "name": "Inspira Medical Center Mullica Hill",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:36.615Z",
+    "checked_at": "2021-02-11T07:53:28.993Z",
     "official": {
       "Facility Name": "Inspira Medical Center Mullica Hill",
       "Facility Address": "700 Mullica Hill Road Mullica Hill",
@@ -392,7 +392,7 @@
     "name": "Capital Health System - Hopewell",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:36.615Z",
+    "checked_at": "2021-02-11T07:53:28.993Z",
     "official": {
       "Facility Name": "Capital Health System - Hopewell",
       "Facility Address": "1 Capital Way Pennington",
@@ -409,7 +409,7 @@
     "name": "MERCER COUNTY DIVISION OF PUBLIC HE",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:36.615Z",
+    "checked_at": "2021-02-11T07:53:28.993Z",
     "official": {
       "Facility Name": "MERCER COUNTY DIVISION OF PUBLIC HE",
       "Facility Address": "350 LAWRENCE STATION ROAD, LAWRENCEVILLE",
@@ -426,7 +426,7 @@
     "name": "Rutgers Eric B. Chandler Health Center",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:36.615Z",
+    "checked_at": "2021-02-11T07:53:28.993Z",
     "official": {
       "Facility Name": "Rutgers Eric B. Chandler Health Center",
       "Facility Address": "277 George Street New Brunswick",
@@ -443,7 +443,7 @@
     "name": "Somerset County Department of Health",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:36.615Z",
+    "checked_at": "2021-02-11T07:53:28.993Z",
     "official": {
       "Facility Name": "Somerset County Department of Health",
       "Facility Address": "Raritan Valley Community College 118 Lamington Road Branchburg",
@@ -460,7 +460,7 @@
     "name": "City of Elizabeth Health Department",
     "operated_by": "NJ VSS",
     "available": "no",
-    "checked_at": "2021-02-11T07:46:36.615Z",
+    "checked_at": "2021-02-11T07:53:28.993Z",
     "official": {
       "Facility Name": "City of Elizabeth Health Department",
       "Facility Address": "418 Palmer Street\nElizabeth",
