@@ -1,62 +1,62 @@
-name: Scrape Data
+# name: Scrape Data
 
-on:
-  push:
-    branches:
-      - main
-  schedule:
-    # Run at 3 AM PDT every day
-    - cron: '*/10 * * * *'
+# on:
+#   push:
+#     branches:
+#       - main
+#   schedule:
+#     # Run at 3 AM PDT every day
+#     - cron: '*/10 * * * *'
 
-jobs:
-  build:
+# jobs:
+#   build:
 
-    runs-on: ubuntu-latest
+#     runs-on: ubuntu-latest
 
-    steps:
-    - uses: actions/checkout@v2
-      with:
-        path: scraper
+#     steps:
+#     - uses: actions/checkout@v2
+#       with:
+#         path: scraper
 
-    - name: Checkout gh-pages
-      uses: actions/checkout@v2
-      with:
-        ref: gh-pages
-        path: output
+#     - name: Checkout gh-pages
+#       uses: actions/checkout@v2
+#       with:
+#         ref: gh-pages
+#         path: output
 
-    - name: Install Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: 14
+#     - name: Install Node.js
+#       uses: actions/setup-node@v1
+#       with:
+#         node-version: 14
 
-    - name: Cache Dependencies
-      uses: actions/cache@v2
-      with:
-        path: scraper/node_mmodules
-        key: ${{ runner.os }}-deps-${{ hashFiles('scraper/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-deps-
+#     - name: Cache Dependencies
+#       uses: actions/cache@v2
+#       with:
+#         path: scraper/node_mmodules
+#         key: ${{ runner.os }}-deps-${{ hashFiles('scraper/package-lock.json') }}
+#         restore-keys: |
+#           ${{ runner.os }}-deps-
 
-    - name: Install dependencies
-      run: |
-        cd scraper
-        npm install
+#     - name: Install dependencies
+#       run: |
+#         cd scraper
+#         npm install
 
-    - name: Scrape!
-      run: |
-        cd scraper
-        bin/nj-vaccine-scraper --input ../output/data.json > out.json
-        mv out.json ../output/data.json
+#     - name: Scrape!
+#       run: |
+#         cd scraper
+#         bin/nj-vaccine-scraper --input ../output/data.json > out.json
+#         mv out.json ../output/data.json
 
-    - name: Commit Updates
-      run: |
-        cd output
-        HAS_CHANGES=$(git diff data.json)
-        if [ -n "$HAS_CHANGES" ]; then
-          git config user.name 'Scraper Bot'
-          git config user.email 'scraper.bot@example.com'
+#     - name: Commit Updates
+#       run: |
+#         cd output
+#         HAS_CHANGES=$(git diff data.json)
+#         if [ -n "$HAS_CHANGES" ]; then
+#           git config user.name 'Scraper Bot'
+#           git config user.email 'scraper.bot@example.com'
 
-          git add data.json
-          git commit -m 'Update scraper results'
-          git push
-        fi
+#           git add data.json
+#           git commit -m 'Update scraper results'
+#           git push
+#         fi

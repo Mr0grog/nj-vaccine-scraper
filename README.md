@@ -1,16 +1,10 @@
 # New Jersey Vaccine Availability Scraper
 
-**This is a prototype! It’s probably not something for general use yet.**
+**This repo has moved!**
 
-
-## Installation
-
-This is not available from NPM, but you can clone the repository and install it locally:
-
-```sh
-$ git clone <url_for_this_repo>
-$ npm install
-```
+Please point check out:
+- https://github.com/newjersey/nj-vaccine-scraper/ for code
+- https://newjersey.github.io/nj-vaccine-scraper/ for data
 
 
 ## License
