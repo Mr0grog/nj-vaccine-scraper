@@ -1,6 +1,6 @@
 # New Jersey Vaccine Availability Scraper
 
-**This repo has moved!**
+⚠️ **This repo has moved!** ⚠️
 
 Please point check out:
 - https://github.com/newjersey/nj-vaccine-scraper/ for code
